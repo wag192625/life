@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8>
+</head>
+<body>
+    <script>
+        // 자바 스크립트에서 관습적인 이유로 0은 false 1은 true로 간주된다.
+        if(0){          // false로 간주되어 출력 x
+            alert(1)
+        }
+        if(1){          //  true로 간주되어 출력 o
+            alert(2)
+        }
+        
+        //빈 문자열은 false로 간주
+        if(''){         // 빈 문자열이라 false로 간주되어 출력 x
+            alert('빈 문자열')
+        }
+
+        // !
+        var a;
+        if(!a){
+            alert('값이 할당되지 않은 변수'); 
+        }
+    </script>
+</body>
+</html>

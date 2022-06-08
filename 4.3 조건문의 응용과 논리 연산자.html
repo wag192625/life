@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8>
+</head>
+<body>
+    <script>
+        // a = 1;
+        // if(a === 1) {
+        //     alert(1);
+        // }
+        // 조건문의 중첩
+        id = prompt('아이디를 입력해주세요.');
+        if(id=='egoing'){   //정확히 입력 시 비밀번호 창
+            password = prompt('비밀번호를 입력해주세요.');
+            if(password==='111111'){    // 정확히 입력 시 로그인
+                alert('로그인 했습니다.' + id + '님 반갑습니다.');
+            } else {
+                alert('비밀번호가 다릅니다.');
+            }
+        } else {
+            alert('아이디가 일치하지 않습니다.');
+        }
+
+        //논리 연산자 '&&'
+        // 좌항과 우항이 모두 참일 때 참이 된다.
+
+        id = prompt('아이디를 입력해주세요.');
+        password = prompt('비밀번호를 입력해주세요.');
+
+        if(id=='egoing' && password === '111111' ){
+            // id의 값이 egoing 이고 password의 값이 111111 이면 참
+                alert('로그인 했습니다.' + id + '님 반갑습니다.');
+        } else {
+            alert('아이디가 일치하지 않습니다.');
+        }
+
+        // or 연산자 '||'
+        // 좌우항중 하나라도 true면 true 가 되는 논리 연산자.
+        id = prompt('아이디를 입력해주세요.');
+        password = prompt('비밀번호를 입력해주세요.');
+        if((id==='egoing' || id==='k8805' || id==='sorialgi') && password==='111111'){
+            alert('인증했습니다.');
+        } else {
+            alert('인증에 실패했습니다.')
+        }
+
+        // ! not 연산자 
+        // boolean의 값을 역전시킨다. true를 false로
+
+        if(!true && !true){
+            alert(1);
+        }
+        if(!false && !true){
+            alert(2);
+        }
+        if(!true && !false){
+            alert(3);
+        }
+        if(!false && !false){
+            alert(4);
+        }
+
+    </script>
+</body>
+</html>
