@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+<script>
+        // let stringToArray = answer(" ");
+        // toUpperCase
+        // return answer;
+
+
+
+    function solution(s) {
+    //s를 일단 각각의 배열로 풀어야함
+    let arr = s;
+    
+    console.log(arr);
+    //try hello world를 각각의 배열로 전환함
+    let answer = '';
+    
+    for (let i = 0; i <= s.length; i++) {
+    // 초기값/ 반복조건/ 반복실행코드
+    //   0  / i가 s보다 작거나 같을때까지 (문자열의 길이)/ 한번씩 증가
+        if (i % 2 === 0) {
+        // if (arr.indexOf(s) % 2 === 0) {
+    // i의 나머지가 0이면 (짝수)
+            answer += s[i].toUpperCase();
+        
+    // s 를 대문자로 바꾼다.
+
+        } else if (i % 2 !== 0){
+    // 홀수면
+            answer += s[i].toLowerCase();
+    // 기존 문자를 출력한다
+        }
+    }
+    return answer;
+    // 처음 질문으로 되돌아가기
+}
+console.log(solution("trys hello world"));
+
+//공백 계산 안해서 안되는듯
+
+</script>
+</body>
+</html>

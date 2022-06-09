@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+// 약수의 개수와 덧셈
+        function countCalc(num) {
+            let count = 0
+            //num을 나누어 떨어지게 하면 약수
+            for (let i = 1; i <= num + 1; i++) {
+                if (num % i ===0) {
+                count = count + 1;
+            }
+        }
+        //짝수일 경우
+        if (count % 2 === 0) {
+            return num
+        //음수인 경우
+        } else {
+            return -num
+        }
+    }
+        function solution(left, right) {
+            let answer = 0;
+
+            //약수의 갯수 세기
+            for (let i = left; i <=right; i++)
+                answer += countCalc(i)
+            }
+
+        console.log(solution 13, 17)
+    </script>
+</head>
+<body>
+
+</body>
+</html>
