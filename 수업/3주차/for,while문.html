@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 곱셈
+        var x, y;
+        for(x=2; x<=5; x++) {
+            document.write("<b> ---[" + x + "단])--- </b>" +"<br>");
+            for(y=1; y <= 9; y++) {
+                document.write(x + "*" + y + "=" + (x*y) + "<br>");
+            }
+        }
+        1부터 100까지 합 구하기
+        var x=1;
+        var sum=0;
+        while(x<=100) {
+            sum+=x;
+            x++;
+        }
+        document.while("1~100까지 합 : <b>" + sum + "</b>"); {
+        }
+
+        1부터 10000까지 합 구하기
+        var x=1;
+        var sum=0;
+        while(1) {      // 무한 반복
+            sum+=x;
+            x++;
+            if(x==10001)
+                break;
+        }
+        document.write("1~10000까지 합 : <b>" + sum + "</b>");
+
+        break문으로 1부터 100까지 수 중 3의 배수 합 구하기
+        var x=0;
+        var sum=0;
+        while(1) {
+            x+3;
+            if(x>100) {
+                break;
+            }
+            sum+=x;
+            document.write(x + " ");
+        }
+        document.while("<p/>");
+        document.while("1~100까지 수 중 3의 배수 합 : <b>" + sum + "</b>");
+
+
+
+        continue문으로 1부터 100까지의 수 중 3의 배수 합 구하기
+        var x=0;
+        var sum=0;
+        for (x=1; x<100; x++) {
+            if(x$3 !=0)
+                continue;
+            sum+=x;
+            document.write(x + " ");
+        }
+        document.write("<p/>");
+        document.write("1~100까지의 수 중 3의 배수 합 : <b>" + sum + "</b>");
+
+    </script>
+    
+</body>
+</html>

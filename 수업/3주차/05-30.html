@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //     function getGrade() {   // 함수 정의
+    //     var kor=95;             // 지역 변수
+    //     }
+    //     var kor=100;                // 전역 변수
+    //     getGrade();             // 함수 호출
+    //     document.write("국어 점수 : " + kor + "<br>");
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+    //     function getGrade () {  // 함수 정의
+    //         kor=95;             // 자동 전역 변수
+    //     }
+    //     var kor=100;            // 전역 변수
+    //     getGrade();             // 함수 호출
+    //     document.write("국어 점수 :" + kor + "<br>"); 
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+일반 논리 연산자
+    // var x=5;
+    // var y=7;
+    // var result;
+
+    // result=(x<10 && y>10);  // 논리곱
+    // document.weite("(x<10 && y>10) : " + result + "<br>");
+    // result=(x<10 || y>10);  //논리합
+    // document.weite("(x<10 || y>10) : " + result + "<br>");
+    // result=(x<10 && y>10);  // 논리 부정
+    // document.weite("!(x<10 && y>10) : " + result + "<br>");
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+비트 논리 연산자
+        var x=5;    //0101
+        var y=7;    //0111
+        var result;
+        result=(x & y);     // 비트 곱
+        document.write("x & y = " + result + "<br>");
+        result=(x | y);     // 비트 합
+        document.write("x | y = " + result + "<br>");
+        result=(x ^ y);     // 베타적 비트합
+        document.write("x ^ y = " + result + "<br>");
+        result=(~x);        // 비트 부정
+        document.write("~x= " + result + "<br>");
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+조건 연산자
+        var x=5;
+        var y=7;
+        var result;
+        result
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+if~else 문
+        var gender="M";
+        var age=21;
+        if(gender=="M") {
+            if(age<=19) {
+                result-"남자 성인입니다.";
+            }
+            else {
+                result="남자 미성년자입니다.";
+            }
+        }
+        else {
+            if (age>19) {
+                result="여자 성인입니다.";
+            }
+            else {
+                result="여자 미성년자입니다.";
+            }
+        }
+        document.write("당신은 " + result + "<p/>");
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+</script>
+로그인 프로그램 만들기
+    <p>아이디, 비밀번호 입력</p>
+    <script src="./ejs/script.js"></script>
+    <script>
+    id=prompt('아이디 입력')
+    if(id=='admin') {
+        password=prompt('비밀번호 입력');
+        if(password==='123456') {
+            loaction.href="20_login.html"
+        }
+        else{
+            location.href="20_error.html"
+        }
+    }
+    else {
+        location.href="20_error.html"
+    }
+    </script>
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+    <h2>회원 인증에 성공했습니다.</h2>
+    <p>저자 홈페이지를 클릭하세요.</p>
+    <a href="http://naver.com">네이버</a>
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+    <h2>회원 인증에 실패했습니다.</h2>
+    <p>웹 문서에 접근할 수 없습니다. 관리자에게 문의하시기 바랍니다.</p>
+    <p>관리자 e-mail : js@cleancode.kr</p>
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function add(){
+        let sum=1;
+        return sum;
+    }
+    function add(x){
+        let sum=x+1;
+        return sum;
+    }
+    function add(x, y){
+        let sum=x+y;
+        return sum;
+    }
+    function add(x, y, z){
+        let sum=x+y+z;
+        return sum;
+    }
+    let r0=add();
+    let r1=add(1);
+    let r2=add(2, 3);
+    let r3=add(4, 5, 6);
+    let r4=add(7, 8, 9, 10);
+    document.write ("함수 호출 인자 없음 : " + r0 + "<p/>");
+    document.write ("함수 호출 인자 부족 : " + r1 + "<p/>");
+    document.write ("함수 호출 인자 부족 : " + r2 + "<p/>");
+    document.write ("정상적인 함수 호출 : " + r3 + "<p/>");
+    document.write ("7, 8, 9만 인자값으로 적용 : " + r4 + "<p/>");
+    
+
+
+    function add(x, y, z) {
+        let sum;
+        if((y===undefined) && (z===undefined)) {
+            sum=x;
+        }
+        else if(z===undefined) {
+            sum=x+y;
+        }
+        else {
+            sum=x+y+z;
+        }
+        return
+    }
+    let r1=add(2);
+    let r2=add(2, 3);
+    let r3=add(4, 5, 6);
+    document.write("함수 호출 인자 부족 : " + r1 + "<p/>");
+    document.write("함수 호출 인자 부족 : " + r2 + "<p/>");
+    document.write("정상적인 함수 호출 : " + r3 + "<p/>");
+
+
+    function add() {
+        let i;
+        let sum=0; //console.dir(arguments); or console.dir(window)
+        for(i=0; i<arguments.length; i++) {
+            sum=sum+argments[i];
+        }
+        document.write("수행 결과 : " + sum + "<p/>");
+    }
+    add(2, 3);      // 매개변수에 들어가는 값 = 인자 (argument), 암묵적으로 arguments 갹체가
+    add(2, 3, 4);
+    add(4, 5, 6, 7, 8);
+    add(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+</script>
+<body>
+ 
+</body>
+</html>

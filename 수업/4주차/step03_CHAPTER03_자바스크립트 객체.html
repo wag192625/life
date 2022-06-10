@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!-- 예제 1 -->
+    <p id="var1"></p>
+    <p id="var2"></p>
+    <p id="var3"></p>
+    <script>
+        let car={name: 'Sonata', speed: 100;, color: 'white'};
+        document.getElementById("var1").innerHTML="자동차 이름 : " + car['name'];
+        document.getElementById("var2").innerHTML="자동차 속도 : " + car.speed;
+        document.getElementById("var3").innerHTML="자동차 색상 : " + car.color;
+    </script>
+
+
+    <!-- 예제2 -->
+    <p id="msg1"></p>
+    <p id="msg1"></p>
+    <p id="msg1"></p>
+    <script>
+        let obj={
+            m1: function(){
+                return "Hello Sonata";
+            },
+            m2: function(a){
+                let result=a;
+                return result;
+            },
+            m3: function(a, b) {
+                let result=a+b;
+                return result;
+            }
+        };
+        document.getElementById("msg1").innerHTML=obj.m1();
+        document.getElementById("msg2").innerHTML=obj.m2(100);
+        document.getElementById("msg3").innerHTML=obj.m3(100, 200);
+    </script>
+
+
+    <!-- 예제3 -->
+    <p id="carname"></p>
+    <p id="carcolor"></p>
+    <p id="carspeed"></p>
+    <script>
+        let car={
+            name: 'Sonata',
+            speed: 50,
+            color: 'white',
+            start: function() {
+                return this.speed+10;
+            }
+        };
+        let cname = document.getElementById("carname");
+        cname.textContent = car.name;
+        let cname = document.getElementById("carcolor");
+        cname.textContent = car.color;
+        let cname = document.getElementById("carspeed");
+        cname.textContent = car.start();
+        </script>
+
+
+    <!-- 예제5 -->
+    <p id="upspeed"></p>
+    <p id="downspeed"></p>
+    <script>
+        let car={
+            name: 'Sonata',
+            speed: 100,
+            color: 'white',
+            speedup: function(a) {
+                let sp=this.speed+a;
+                if(sp>=300) {
+                    sp=50;
+                    return sp;
+                }
+                else {
+                    return sp;
+                }
+            },
+            speeddown: function(a) {
+                let sp=this.speed-a;
+                if(sp<0) {
+                    sp=0;
+                    return sp;
+                }
+                else {
+                    return sp;
+                }
+            }
+        };
+        var upspeed=document.getElementById("upspeed");
+        upspeed.textContent='속도 증가 : ' + car.speedup(100);
+        var downspeed=document.getElementById("downspeed");
+        downspeed.textContent='속도 감소 : ' + car.speeddown(30);
+    </script>
+<!-- 예제 15 -->
+    <script>
+        function add() {
+            let header=document.creatElement('h3');     //요소 노드 생성
+            let textNode=document.createTextNode('내 이름은 정명훈입니다.')     //텍스트 노드 생성
+            header.appendChild(textNode);       //요소 노드와 텍스트 노드 연결
+            document.body.appendChild(header);      //생성한 문서 객체를 body에 추가
+        };
+    </script>
+    <body>
+        <a href="#" onclick="add()">당신의 이름은 무엇입니까?</a>
+    </body>
+
+
+</body>
+</html>

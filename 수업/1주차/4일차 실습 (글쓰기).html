@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판 글쓰기</title>
+    <style>
+        #header{
+            text-align: center;
+            width: 1000px;
+            background-color: rgb(233, 207, 159);
+            border-radius: 3px;
+            border-style: outset;
+            margin-bottom: 0px auto;
+        }
+        #content{
+            width: 1000px; float: middle;
+            background: gainsboro;
+            text-align: center;
+            border-radius: 12px;
+        }
+        table{
+            width: 100%;
+            border: 0px solid black;
+            border-collapse: collapse;
+            border-bottom: none;
+            border-radius: 3px;
+            background-color: rgb(213, 225, 200);
+            line-height: 12px;
+            margin-bottom: 0 auto;
+        }
+        td{
+            border: 1px solid black;
+        }
+        td:first-child {
+            border-left: none;
+            border-top: none;
+        }
+        td:last-child {
+            border-right: none;
+            border-bottom: none;
+        }
+
+        .font-big {
+            font-size: 2em;
+            margin: 0 auto;
+        }
+        .font-center {
+            text-align: center;
+        }
+        .button{
+            width: 35px;
+            height: 20px;
+            background-color:coral;
+            border: 5px solid rgb(48, 140, 155) ;
+            border-radius: 10px;
+        }
+        .button > a {
+            display: block;
+        }
+        #box {
+            display: block;
+        }
+        span{
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1 style="font-size: 30px;">게시판</h1>
+    </div>
+    <div id="content">
+            <table>
+                <h3 class="font-big">글쓰기</h3>
+                <tr>
+                    <td>이름</td>
+                    <td align="left"><input type="text" id="inpName" placeholder="정명훈"><label for="inpName"></label></td>
+                </tr>
+                <tr>
+                    <td>제목</td>
+                    <td align="left"><input type="text" name="title" placeholder="글쓰기"></td>
+                </tr>
+                <tr>
+                    <td>내용</td>
+                    <td align="left"><textarea name="write" cols="100" rows="15" placeholder="글을 쓴다"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>업로드</br>
+                        <span>(파일선택: type="file"사용)</span></td>
+                    <td align="left"><input type="text" name="file" placeholder="파일을 선택한다">
+                    <input type="file" name="file" id=""></td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: none;"></td>
+                    <td style="border-left: none;" align="right">
+                    <button onclick="location.href='../studyhtml22.05.18/게시판.html'">완료</button>
+                    <button onclick="location.href='../studyhtml22.05.18/게시판.html'">목록</button></td>
+                </tr>
+            </table>
+    </div>
+</body>
+</html>

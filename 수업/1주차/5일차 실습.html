@@ -1,0 +1,97 @@
+게시글
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #header{
+            width: 800px;
+            background-color: rgb(233, 207, 159);
+        }
+        #content{
+            width: 800px;
+            background-color: rgb(214, 214, 214);
+            border: 1px;
+        }
+        table{
+            width: 800px;
+            border: 1px solid gray;
+            border-top: 3px solid gray;
+            background-color: rgb(213, 225, 200);
+            line-height: 12px;
+            margin-bottom: 0px auto;
+            border-right: none;
+            border-left: none;
+        }
+        .box1{
+            width: 800px; height: 180px;
+            background-color: rgb(179, 213, 125);
+            margin-bottom: 0 auto;
+        }
+        .box2{
+            width: 800px; height: 100px;
+            background-color: rgb(121, 149, 75);
+            margin-bottom: 0 auto;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
+        .box3{
+            width: 800px; height: 30px;
+            background-color: rgb(76, 94, 47);
+            margin-bottom: 0 auto;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
+        .text_right{
+            text-align: right;
+        }
+        input{
+            vertical-align: middle;
+        }
+        span{
+            display: inline-block;
+        }
+        h1{
+            margin-bottom: auto;
+        }
+
+    </style>
+    <title>게시글2</title>
+</head>
+<body>
+    <div class=""></div>
+    <div id="header">
+        <h1>게시판</h1>
+    </div>
+    <table>
+        <div id="content">
+            <tr>
+                <td style="width: 400px;">게시글 1 입니다.
+                <td style="width: 50px;">정명훈
+                <td style="width: 70px;">조회수: 14
+                <td style="width: 140px;">2022-05-20 (12:20)</td>
+            </tr>
+            <!-- <span style="width: 518px; margin:  0px; ">게시글 1입니다.</span>
+            <span style="width: 60px ; margin: -1px; " class="text_right">정명훈</span>
+            <span style="width: 70px ; margin: -1px; " class="text_right">조회:999</span>
+            <span style="width: 140px; margin: -1px; " class="text_right">2022-05-20(09:30)</span> -->
+        </div>
+    </table>
+    <div class="box1">
+        게시판 3가지 만들기
+    </div>
+    <div class="box2">
+        <textarea style="resize: none;" name="textbox" cols="70" rows="6"></textarea>
+        <input type="button" style="width: 100px; height: 96px;" value="덧글 쓰기"></button>
+    </div>
+    <div class="box3">
+        <button>삭제</button>
+        <button onclick="location.href='../studyhtml22.05.18/게시판.html'">목록</button>
+        <button onclick="location.href='../studyhtml22.05.19/글쓰기.html'">글쓰기</button>
+    </div>
+</body>
+</html>

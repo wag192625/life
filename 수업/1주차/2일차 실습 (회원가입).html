@@ -1,0 +1,112 @@
+<style>
+        h1 {
+            color:red;
+            background-color:orange;
+        }
+        #header {
+            width:  800px; margin: 0 auto;
+            background: red;
+        }
+        #wrap{
+            width: 800px; margin: 0 auto;
+            overflow: hidden;
+        }
+        #aside{
+            width: 200px; float: left;
+            background: blue;
+        }
+        #content{
+            width: 600px; float: left;
+            background: green;
+        }
+</style>
+
+
+실습
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1 {
+            color:black;
+            background-color:white;
+        }
+        #header {
+            width:  800px; margin: 0 auto;
+            background: red;
+        }
+        #wrap{
+            width: 800px; margin: 0 auto;
+            overflow: hidden;
+        }
+        #aside{
+            width: 110px; float: left;
+            background: yellow;
+        }
+        #content{
+            width: 300px; float: left;
+            background: orange;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원 가입</title>
+</head>
+<body>
+    <form>
+    <h1>블로그 게시글 업로드</h1>
+    이름:<input type="text" name="name" size="15"></br>
+    이메일:<input type="email" name="email"></br>
+    게시글 내용:<textarea cols="25" rows="2"></textarea></br>
+    <input type="button" value="제출"></br>
+    </form>
+
+    <h1>간편 회원가입</h1>
+    <!--#TCP School 사이트에서 fieldset 태그와 placeholder 속성값을 참조하여 작성해 주세요-->
+        <ol>
+            <li><form action="~" method="get" >
+                <fieldset style="width:370px" >
+                    <legend>입력 정보</legend>
+                    이름:<input type="text" name="st_name" placeholder="이름"></br>
+                    이메일:<input type="email" name="email" placeholder="~~~@~~~.com"></br>
+                    휴대폰 번호:<input type="number" name="phone" placeholder="01012345678"></li>
+                </fieldset>
+            <li>인증코드<input type="text" name="code" size="10">
+            <input type="submit" value="제출"></li></ol>
+        </form>
+
+    <h1>기본 회원 가입</h1>
+    <!--#TCP School 사이트에서 select tag 참조하여 작성해 주세요-->
+        <form action="~" method="get" >
+            <fieldset style="width: 410px;">
+            <div id="aside">
+                아이디</br>비밀번호</br>비밀번호 확인</br>
+                이름</br></br>전화번호</br>이메일</br></br></br>소개내용</br> </br>
+            </div>
+            <div id="content">
+                <input type="text" name="id">
+                <input type="password" name="password">
+                <input type="password" name="password">
+                <input type="text" name="name"></br>
+                <input type="radio" name="gender" value="man"> 남성
+                <input type="radio" name="gender" value="waman"> 여성
+                <input type="radio" name="gender" value="no"> 입력 안함</br>
+                <select>
+                    <option value="02">02</option>
+                    <option value="041">041</option>
+                    <option value="010">010</option>
+                </select>
+                - <input type="tel" name="phone1" size="10"> -
+                <input type="tel" name="phone1" size="10">
+                <input type="email" name="email" size="6"> @ 
+                <select name="select_email" onchange="selectEmalil(this)">
+                    <option value="@gmali.com"> google.com</option>
+                    <option value="@naver.com"> naver.com</option>
+                    <option value="@daum.net"> daum.net</option>
+                </select></br>
+                <textarea cols="39" rows="4"></textarea>
+            </fieldset>
+            </div>
+</body>
+</html>
