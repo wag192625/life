@@ -1,0 +1,204 @@
+      /* main full banner */
+
+      .main_full_banner {
+        position: relative;
+        width: 1020px;
+        height: 450px;
+        right: 350px;
+      }
+
+      /* banner_desc style */
+      .banner_desc {
+        display: inline-block;
+        width: 300px;
+        margin-bottom: 10px;
+        font-size: 40px;
+        color: #1f1f1f;
+        line-height: 56px;
+        word-break: keep-all;
+        font-weight: 100px;
+        position: relative;
+        bottom: 460px;
+        left: 550px;
+        word-spacing: -2px;
+        letter-spacing: -0.05em;
+        margin-bottom: 0;
+        position: relative;
+        height: 370px;
+      }
+
+      /*  full banner mini font */
+      span {
+        color: #666;
+        font-weight: 700;
+        font-size: 20px;
+
+      }
+
+      .banner_desc .bigtit {
+        color: black;
+        font-size: 20px;
+        width: 360px;
+        height: 41px;
+      }
+
+      /* ***full banner 카테고리 라인*** */
+      .main_cate_list {
+        display: inline-block;
+        word-spacing: -1px;
+        background-color: rgba(51, 51, 51, .5);
+        opacity: 0.9;
+        font-size: 14px;
+        line-height: 25px;
+        letter-spacing: -0.05em;
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+        list-style: none;
+        width: 170px;
+        height: 450px;
+        margin-top: 0px;
+        position: relative;
+        left: 350px;
+        bottom: 820px;
+        cursor: pointer;
+        word-break: keep-all;
+
+      }
+
+
+      .main_menu {
+        display: flex;
+        background-color: rgba(51, 51, 51, .5);
+        opacity: 1.0;
+        width: 170px;
+        height: 30px;
+        color: white;
+        font-weight: bold;
+        padding-left: 0px;
+        justify-content: center;
+
+      }
+
+      .menu {
+        width: 170px;
+        height: 30px;
+        color: white;
+        font-weight: bold;
+        padding-left: 0px;
+
+      }
+
+      .pre button,
+      .next button,
+      .stop button {
+        border-radius: 100%;
+        overflow: hidden;
+        border-color: white;
+
+      }
+
+      .profile {
+        position: relative;
+        width: 35px;
+        height: 100%;
+        object-fit: cover;
+        left: 0 auto;
+
+
+      }
+      
+      /* full banner boutton 중심 */
+      .button1 {
+        display: inline-block;
+        position: relative;
+        left: 895px;
+        bottom: 900px;
+        opacity: 0.6;
+
+      }
+
+
+      .numbering {/*번호*/
+        display: inline-block;
+        position: relative;
+        right: 300px;
+        bottom: 40px;
+
+      }
+
+      .next button {/*오른쪽*/
+        display: inline-block;
+        position: relative;
+        right: 200px;
+        bottom: 67px;
+
+      }
+
+      .stop button { /*일시정지*/
+        display: inline-block;
+        position: relative;
+        right: 250px;
+        bottom: 100px;
+      }
+      .pre button{ /*왼쪽*/
+        display: inline-block;
+        position: relative;
+        right: 350px;
+        bottom: 12px;
+      }
+
+      /* 하이퍼링크 속성 */
+      a:link {
+        color: white;
+      }
+
+      /* 모든 문제의 원인 : 쓰지마셈
+     a:visited{
+       color:white;
+     }
+     */
+      .li1,
+      .li2,
+      .li3,
+      .li4,
+      .li5,
+      .li6,
+      .li7,
+      .li8,
+      .li9,
+      .li10,
+      .li11,
+      .li12,
+      .li13,
+      .li14 {
+        display: block;
+        position: relative;
+        width: 123px;
+        line-height: 28.5px;
+        padding: 0 23px 0;
+        font-size: 14px;
+        color: #fff;
+        font-weight: 700;
+        left: 0px;
+      }
+
+      .li1:hover,
+      .li2:hover,
+      .li3:hover,
+      .li4:hover,
+      .li5:hover,
+      .li6:hover,
+      .li7:hover,
+      .li8:hover,
+      .li9:hover,
+      .li10:hover,
+      .li11:hover,
+      .li12:hover,
+      .li13:hover,
+      .li14:hover {
+        background-color: black;
+      }
+
+      .main_menu:hover {
+        background-color: black;
+      }

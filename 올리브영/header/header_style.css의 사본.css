@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: NotoSansCJKkr;
+  font-style: normal;
+  font-weight: 400;
+  src: local(NotoSansCJKkr), url("https://www.oliveyoung.co.kr/pc-static-root/fonts/NotoSansCJKkr-Regular.woff2") format("woff2"), url("https://www.oliveyoung.co.kr/pc-static-root/fonts/NotoSansCJKkr-Regular.woff") format("woff")
+}
+
+@font-face {
+  font-family: NotoSansCJKkr;
+  font-style: normal;
+  font-weight: 500;
+  src: local(NotoSansCJKkr), url("https://www.oliveyoung.co.kr/pc-static-root/fonts/NotoSansCJKkr-Medium.woff2") format("woff2"), url("https://www.oliveyoung.co.kr/pc-static-root/fonts/NotoSansCJKkr-Medium.woff") format("woff")
+}
+
+@font-face {
+  font-family: NotoSansCJKkr;
+  font-style: normal;
+  font-weight: 700;
+  src: local(NotoSansCJKkr), url("https://www.oliveyoung.co.kr/pc-static-root/fonts/NotoSansCJKkr-Bold.woff2") format("woff2"), url("https://www.oliveyoung.co.kr/pc-static-root/fonts/NotoSansCJKkr-Bold.woff") format("woff")
+}
+
+@font-face {
+  font-family: Dovemayo-Medium;
+  src: url("https://www.oliveyoung.co.kr/pc-static-root/fonts/dovemayo/Dovemayo-Medium.woff") format('woff');
+  font-weight: 400;
+  font-style: normal
+}
+
+
+body {
+  margin: 0;
+  /* 바디 자체 마진값 삭제*/
+  font-family: Montserrat, -apple-system, 'Noto Sans KR',
+    AppleSDGothicNeo, Roboto, dotum, '돋움', sans-serif;
+}
+
+input {
+  outline: none;
+  /* 인풋 박스 바깥라인 제거*/
+}
+
+a {
+  color: inherit;
+  /* 하이퍼 링크의 파란색 색깔을 부모색(현재 검정)으로 바꿈*/
+  text-decoration: none;
+  /* 하이퍼 링크의 밑줄 제거*/
+}
+
+ul,
+li,
+h1,
+h2,
+p,
+fieldset {
+  /* 마진 패딩 기본값 제거*/
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* display: inline; ul 스타일에 적용*/
+ul {
+  display: flex;
+}
+
+#header {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+#header .top {
+  top: 0;
+  right: 0;
+  position: relative;
+  height: 30px;
+}
+
+#header .top .menu_list {
+  margin: 0 auto;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#header .top .menu_list a {
+  /* .menu_list>li 에서 a로 바꿈*/
+  font-size: 12px;
+  /* 노가다 */
+  /*float: left;  div에서 float 설정시 display 요소가 먹히지 않아 삭제.
+  상위 속성에서 top, right로 설정해서 필요 없음*/
+  padding: 0 9px 0 8px;
+  /* 올리브영 기준 0 9 0 12지만 사이 세로줄이 
+  border가 아니라 이미지 파일이여서 12 -> 8px로 변경*/
+  line-height: 30px;
+  white-space: nowrap;
+  border-left: 1px solid #b6b6b6;
+}
+
+#header .top .menu_list li:first-child a {
+  /* 왼쪽 보더만 삭제 */
+  border-left: none;
+}
+
+fieldset {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  border: none;
+}

@@ -1,0 +1,62 @@
+.entire{display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        }
+
+/* <오직 올리브영에서만> */
+.banner1{display: flex;
+        position: relative;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url(https://image.oliveyoung.co.kr/uploads/contents/main/00_Main_onlyone_BG.jpg)!important;
+        margin:0px auto;
+        padding:0px 205px 0px 205px;
+        width: 100%;
+        right: 200px;}
+
+.banner1 .title{display: flex;
+                justify-content: center;
+                margin-top: 30px;}
+
+.a[href]{color: black;
+        text-decoration: none;}
+
+.banner1 .button_num{position:relative;
+                        left: 550px;
+                        border: 0px solid black; 
+                        border-radius: 30px 30px 30px 30px;
+                        background-color: #efebe9;
+                        font-weight: bolder;
+                        width: 20px;
+                        height: 20px;}
+.button_num:hover{background-color: black; color: white;}   
+
+.banner1 .mini1{display: flex;
+                justify-content: space-around;
+                margin: 10px 0px 10px 0px;
+                padding: 50px 205px 70px 200px;
+                width: 620px;
+                height: 200px;
+                background-color: white;}
+
+.banner1 .img{display: inline;
+                width: 320px;
+                height: 250px;
+                position: relative;
+                bottom: 20px;}
+
+.banner1 .text{display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                text-align: center;
+                box-sizing: border-box;
+                border: 0px solid;
+                width: 190px;
+                height: 50px;
+                background-color: white;
+                font-size: 14px;
+                z-index: 1;
+                position: relative;
+                top: -50px;
+                left: 65px;}

@@ -1,0 +1,39 @@
+     /*사이트 전체 영역 사이즈 조정*/
+     #Container {
+         width: 100%;
+         min-width: 1020px
+     }
+
+     #Contents {
+         /*contents영역 사이즈 지정*/
+         width: 1020px;
+         height: 100%;
+         margin: 0 auto;
+
+     }
+
+     .main_customer_box {
+         /*고객센터 영역*/
+         position: relative;
+         /*자기 기준으로 배치*/
+         width: 100%;
+         min-height: 246px;
+         /*최소 높이 246px*/
+         margin-top: 70px;
+         /*테두리(border)와 이웃하는 요소 사이의 간격인 마진 영역의 크기를 설정*/
+         border-top: 1px solid #000
+     }
+
+     .main_customer_box h4 {
+         float: left;
+         /*왼쪽으로*/
+         width: 95px;
+         /*95px만큼 이동*/
+         font-size: 18px;
+         /*글자크기*/
+         color: #000
+             /*글자 색*/
+
+     }
+
+    

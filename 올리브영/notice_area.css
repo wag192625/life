@@ -1,0 +1,47 @@
+  .main_customer_box .notice_area {
+            /*공지사항*/
+            position: relative;
+            overflow: hidden;
+            top: 10px;
+            /*공백*/
+            height: 75px;
+            /*높이 조정 : block이 너무 커서 / 이건 추가한거임*/
+            width: 640px;
+
+        }
+
+
+        .main_customer_box .notice_area h4 {
+            /*공지사항(h4) 글자 라인 위치*/
+            line-height: 15px
+                /*60px*/
+        }
+
+        /*새로운소식*/
+        .main_customer_box .notice_area .notice_cont {
+            /*새로운소식   후손*/
+            float: left;
+            /*글자 왼쪽으로*/
+            width: 545px;
+            /*  height: 60px; 블록 높이*/
+            /* border: 1px solid black; */
+            padding-top: 23px;
+            /* 23px padding = 보더와 요소와의 간격, 각 요소간의 보더 간격을 margin*/
+
+        }
+
+  
+        /*---------------더보기----------------*/
+        .main_customer_box .notice_area .more_view {
+            position: absolute;
+            top: 23px;
+            /*21px*/
+            /*더보기 위치*/
+            right: 0;
+            color: #888;
+            padding-right: 15px;
+            /**/
+            background: url("https://www.oliveyoung.co.kr/pc-static-root/image/comm/ico_arrow7x11_2.png") no-repeat 100% 50%;
+            font-weight: 700
+                /*글자 진하기?*/
+        }

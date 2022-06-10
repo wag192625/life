@@ -1,0 +1,168 @@
+/* 오늘드림, 관심매장소식, 최근 본 상품 */
+.right li {
+  display: flex;
+  position: relative;
+  font-size: 14px;
+  border-left: 1px solid rgb(140, 140, 140);
+  padding: 3px 12px 3px 12px;
+  align-items: center;
+}
+
+.show1:first-child {
+  border-left: none;
+}
+
+.show1,
+.show2,
+.show3 {
+  position: relative;
+}
+
+
+.show1:hover,
+.show2:hover,
+.show3:hover {
+  border-bottom: 2px solid black;
+}
+
+/* 오늘 드림 */
+.show1_hover_show {
+  display: none;
+}
+
+.show1:hover .show1_hover_show {
+  position: absolute;
+  display: block;
+  width: 200px;
+  background-color: white;
+  box-shadow: 2px 0 7px 2px (rgb(0 0 0) / 20%);
+  border: 2px solid #9bce26;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px 10px 5px 10px;
+  top: 45px;
+  left: 0px;
+  z-index: 10;
+}
+
+.show1:hover .show1_hover_show::after {
+  border-top: 0px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #9bce26;
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 40px;
+}
+
+/* 관심 매장 소식 */
+
+.show2_hover_show {
+  display: none;
+}
+
+.show2:hover .show2_hover_show {
+  position: absolute;
+  display: block;
+  width: 553px;
+  height: 150px;
+  padding-bottom: 20px;
+  background-color: white;
+  box-shadow: 2px 0 7px 2px (rgb(0 0 0) / 20%);
+  border: 2px solid #9bce26;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px 10px 5px 10px;
+  top: 45px;
+  right: 0px;
+  z-index: 10;
+  text-align: center;
+  box-sizing: content-box;
+  font-weight: 600;
+}
+
+.show2:hover .show2_hover_show::after {
+  border-top: 0px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #9bce26;
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: 40px;
+}
+
+.show2_page {
+  display: block;
+  border: none;
+  justify-content: center;
+}
+
+.show2_btn {
+  border: 1px solid #b6b6b6;
+  /* 버튼 외곽선 제거 */
+  background-color: transparent;
+  /* 버튼 기본색 투명화 */
+  padding: 5px 20px 5px 20px;
+
+}
+.show2_1 {
+  padding: 15px 0 30px 0;
+  border-bottom: 1px solid rgb(215, 215, 215);
+}
+.show2_2 {
+  padding: 10px 0 15px 0;
+}
+/* 최근 본 상품 */
+.show3_list {
+  display: none;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.show3.test .show3_list {
+  display: flex;
+  position: absolute;
+  width: 1020px;
+  top: 45px;
+  right: -4px;
+  height: 360px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #9bce26;
+  margin: 0;
+  text-indent: 3px;
+  z-index: 2;
+}
+.show3_1 {
+  display: flex;
+  justify-items: center;
+  margin: auto 20px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 2px solid #666;
+}
+.show3_2 {
+  display: grid;
+  position: relative;
+  justify-items: center;
+  align-items: center;
+  height: 280px;
+  width: 980px;
+  margin: auto 20px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: rgb(255, 255, 255);
+}
+
+.show3.test .show3_list::after {
+  border-top: 0px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #9bce26;
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: 40px;
+}

@@ -1,0 +1,13 @@
+/********************* middle banner style****************** */
+.content2{
+  display: flex;
+  width: 1020px;
+  height: 102px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:10px;
+  
+  
+}
+
+
+

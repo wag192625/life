@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>올리브영</title>
+    <!--명훈-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./header/header_style.css">
+    <link rel="stylesheet" type="text/css" href="./header/header_searchbox.css">
+    <link rel="stylesheet" type="text/css" href="./header/header_right.css">
+    <link rel="stylesheet" type="text/css" href="./header/header_nav.css">
+
+    <!--소연-->
+    <link rel="stylesheet" type="text/css" href="pre-ver_1.css">
+    <link rel="stylesheet" type="text/css" href="pre-ver_2.css">
+    <link rel="stylesheet" type="text/css" href="pre-ver_3.css">
+    <link rel="stylesheet" type="text/css" href="pre-ver_4.css">
+
+    <!--예림-->
+    <link rel="stylesheet" type="text/css" href="oliveyoung_stylesheet_banner1.css">
+    <link rel="stylesheet" type="text/css" href="oliveyoung_stylesheet_banner2.css">
+    <link rel="stylesheet" type="text/css" href="oliveyoung_stylesheet_banner3.css">
+
+    <!--병진-->
+    <!--글자, 테두리 크기-->
+    <link rel="stylesheet" type="text/css" href="item.css">
+    <!--공지사항 부분-->
+    <link rel="stylesheet" type="text/css" href="notice_area.css">
+    <!--고객센터 부분-->
+    <link rel="stylesheet" type="text/css" href="customer_area.css">
+    <!--모바일이미지-->
+    <link rel="stylesheet" type="text/css" href="app_down_link.css">
+    <!--기본 틀-->
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="top">
+            <ul class="menu_list">
+                <li><a href="">회원 가입</a></li>
+                <li><a href="">로그인</a></li>
+                <li><a href="">장바구니</a></li>
+                <li><a href="">주문배송</a></li>
+                <li><a href="">고객센터</a></li>
+                <li><a href="">매장안내</a></li>
+                <li><a href="">Global</a></li>
+            </ul>
+        </div>
+        <div>
+            <fieldset>
+                <!-- 123fieldset 잘 안쓴다함 -->
+                <div>
+                    <a href="">
+                        <img src="./header/oliveyoung.png" alt="올리브영" width="248px" height="42">
+                    </a>
+                </div>
+                <div class="search_box">
+                    <input type="text" class="search_box_list">
+                    <button type="submit" class="search_box_btn">
+                        <img src="./header/searchbutton.png">
+                    </button>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li class="show1">
+                            <a href="">오늘 드림
+                                <img src="./header/bag.png" width="22" height="20">
+                            </a>
+                            <div class="show1_hover_show">
+                                배송지를 등록하고 오늘드림으로<br />
+                                구매 가능한 상품을 확인하세요!
+                            </div>
+                        </li>
+                        <li class="show2">
+                            <a href="">관심 매장소식</a>
+                            <div class="show2_hover_show">
+                                <div class="show2_page">
+                                    <div class="show2_1">
+                                        로그인 하시면 자주가는 매장을<br />
+                                        관심 매장으로 설정 할 수 있습니다.
+                                    </div>
+                                    <div class="show2_2">
+                                        <button class="show2_btn">로그인</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="show3">
+                            <a>최근 본 상품</a>
+                            <div class="show3_list">
+                                <div class="show3_1">
+                                    전체
+                                </div>
+                                <div class="show3_2">
+                                    최근 본 상품이 없습니다.
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </fieldset>
+        </div>
+        <nav>
+            <div>
+                <div class="category">
+                    <p><img src="./header/category.png"> 카테고리</p>
+                    <ul class="category_list">
+                        <li>
+                            <h2>뷰티</h2>
+                            <div class="category_box">
+                                <p><a href="">스킨케어 ></a></p>
+                                <ul>
+                                    <li><a href="">스킨/로션/올인원</a></li>
+                                    <li><a href="">에센스/크림</a></li>
+                                    <li><a href="">미스트/오일</a></li>
+                                </ul>
+                                <p><a href="">마스크팩 ></a></p>
+                                <ul>
+                                    <li><a href="">시트팩/패드</a></li>
+                                    <li><a href="">페이셜팩</a></li>
+                                    <li><a href="">코팩/패치</a></li>
+                                </ul>
+                                <p><a href="">클렌징폼/젤 ></p>
+                                <ul>
+                                    <li><a href="">스킨/로션/올인원</a></li>
+                                    <li><a href="">오일/워터/리무버</a></li>
+                                    <li><a href="">필링/패드</a></li>
+                                </ul>
+                                <p><a href="">선케어 ></a></p>
+                                <ul>
+                                    <li><a href="">선블록</a></li>
+                                    <li><a href="">태닝/에프터선</a></li>
+                                </ul>
+                            </div>
+                            <div class="category_box">
+                                <p><a href="">더모코스메틱 ></a></p>
+                                <ul>
+                                    <li><a href="">스킨/로션</a></li>
+                                    <li><a href="">에센스/크림</a></li>
+                                    <li><a href="">미스트/오일</a></li>
+                                    <li><a href="">마스크팩</a></li>
+                                    <li><a href="">클렌징</a></li>
+                                    <li><a href="">선케어</a></li>
+                                    <li><a href="">바디케어</a></li>
+                                </ul>
+                                <p><a href="">메이크업 ></a></p>
+                                <ul>
+                                    <li><a href="">립메이크업</a></li>
+                                    <li><a href="">베이스메이크업</a></li>
+                                    <li><a href="">아이메이크업</a></li>
+                                </ul>
+                                <p><a href="">네일 ></a></p>
+                                <ul>
+                                    <li><a href="">폴리쉬</a></li>
+                                    <li><a href="">팁/스티커</a></li>
+                                    <li><a href="">반경화</a></li>
+                                    <li><a href="">케어</a></li>
+                                </ul>
+                                <p><a href="">바디케어 ></a></p>
+                                <ul>
+                                    <li><a href="">워시/스크럽</a></li>
+                                    <li><a href="">로션/오일</a></li>
+                                    <li><a href="">제모용품</a></li>
+                                    <li><a href="">핸드케어</a></li>
+                                    <li><a href="">립케어</a></li>
+                                    <li><a href="">바디미스트</a></li>
+                                    <li><a href="">데오도란트</a></li>
+                                    <li><a href="">풋케어</a></li>
+                                    <li><a href="">선물세트</a></li>
+                                </ul>
+                            </div>
+                            <div class="category_box">
+                                <p><a href="">헤어케어 ></a></p>
+                                <ul>
+                                    <li><a href="">샴푸/린스</a></li>
+                                    <li><a href="">트리트먼트/팩</a></li>
+                                    <li><a href="">헤어기기</a></li>
+                                    <li><a href="">헤어브러쉬</a></li>
+                                    <li><a href="">염색약/펌</a></li>
+                                    <li><a href="">스타일링</a></li>
+                                    <li><a href="">탈모케어</a></li>
+                                    <li><a href="">에센스</a></li>
+                                </ul>
+                                <p><a href="">향수/디퓨저 ></a></p>
+                                <ul>
+                                    <li><a href="">여성향수</a></li>
+                                    <li><a href="">남성향수</a></li>
+                                    <li><a href="">캔들/디퓨저</a></li>
+                                </ul>
+                                <p><a href="">미용소품 ></a></p>
+                                <ul>
+                                    <li><a href="">페이스</a></li>
+                                    <li><a href="">아이</a></li>
+                                    <li><a href="">헤어/바디</a></li>
+                                    <li><a href="">코튼</a></li>
+                                    <li><a href="">디바이스</a></li>
+                                    <li><a href="">네일</a></li>
+                                    <li><a href="">기타소품</a></li>
+                                </ul>
+                                <p><a href="">남성 ></a></p>
+                                <ul>
+                                    <li><a href="">스킨케어</a></li>
+                                    <li><a href="">바디케어</a></li>
+                                    <li><a href="">헤어케어</a></li>
+                                    <li><a href="">메수크업</a></li>
+                                    <li><a href="">쉐수빙</a></li>
+                                    <li><a href="">향수</a></li>
+                                    <li><a href="">매너용품</a></li>
+                                    <li><a href="">건강식품</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <h2>헬스&푸드</h2>
+                            <div class="category_box">
+                                <p><a href="">건강&위생식품 ></a></p>
+                                <ul>
+                                    <li><a href="">덴탈케어</a></li>
+                                    <li><a href="">스팟패치/마스크</a></li>
+                                    <li><a href="">여성/위생용품</a></li>
+                                    <li><a href="">아이케어</a></li>
+                                    <li><a href="">운동/헬스/재활용품</a></li>
+                                    <li><a href="">물티슈/손소독티슈</a></li>
+                                    <li><a href="">마사지/찜질용품</a></li>
+                                    <li><a href="">성인용품</a></li>
+                                    <li><a href=""> 홈케어/의료용품</a></li>
+                                </ul>
+                                <p><a href="">건강식품 ></a></p>
+                                <ul>
+                                    <li><a href="">비타민류</a></li>
+                                    <li><a href="">장 건강</a></li>
+                                    <li><a href="">체중 관리</a></li>
+                                    <li><a href="">이너뷰티 케어</a></li>
+                                    <li><a href="">여성 건강</a></li>
+                                    <li><a href="">혈행/눈/간 건강</a></li>
+                                    <li><a href="">홍삼/면역케어</a></li>
+                                    <li><a href="">관절/뼈/치아 건강</a></li>
+                                    <li><a href="">기타(스페셜케어)</a></li>
+                                    <li><a href="">선물용 건강세트</a></li>
+                                </ul>
+                                <p><a href="">푸드 ></a></p>
+                                <ul>
+                                    <li><a href="">식단/이너뷰티</a></li>
+                                    <li><a href="">간편식/요리</a></li>
+                                    <li><a href="">디저트/간식</a></li>
+                                    <li><a href="">생수/음료</a></li>
+                                    <li><a href="">베이비푸트</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <h2>라이프</h2>
+                            <div class="category_box">
+                                <p><a href="">라이프/홈 ></a></p>
+                                <ul>
+                                    <li><a href="">공간방향/제습</a></li>
+                                    <li><a href="">홈클리닝</a></li>
+                                    <li><a href="">생활</a></li>
+                                    <li><a href="">주방</a></li>
+                                    <li><a href="">라이프웨어</a></li>
+                                    <li><a href="">테크</a></li>
+                                    <li><a href="">홈데코</a></li>
+                                    <li><a href="">악세서리</a></li>
+                                    <li><a href="">굿즈</a></li>
+                                </ul>
+                                <p><a href="">반려동물 ></a></p>
+                                <ul>
+                                    <li><a href="">강아지 식품</a></li>
+                                    <li><a href="">강아지 용품</a></li>
+                                    <li><a href="">고양이 식품</a></li>
+                                    <li><a href="">고양이 용품</a></li>
+                                </ul>
+                                <p><a href="">베이비 ></a></p>
+                                <ul>
+                                    <li><a href="">기저귀</a></li>
+                                    <li><a href="">분유/이유식/간식</a></li>
+                                    <li><a href="">스킨/바디케어</a></li>
+                                    <li><a href="">유아용품</a></li>
+                                    <li><a href="">베이비 물티슈</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="category2">
+                    <ul>
+                        <li><a href="">오특</a></li>
+                        <li><a href="">신상</a></li>
+                        <li><a href="">랭킹</a></li>
+                        <li><a href="">프리미엄관</a></li>
+                        <li><a href="">기획전</a></li>
+                        <li><a href="">세일</a></li>
+                        <li><a href="">기프트카드</a></li>
+                        <li><a href="">멤버십/쿠폰</a></li>
+                        <li><a href="">이벤트</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- 소연 -->
+    <!-- main full banner -->
+    <div class="contents1_Container">
+        <div class=" content1">
+            <div class="main_full_banner">
+                <a href="https://bit.ly/3m34ZAF">
+                    <img height="450px" width="1920px"
+                        src="https://image.oliveyoung.co.kr/uploads/images/display/90000010001/1/8595331980087139053.jpg"
+                        alt="올리브영데이_강영아" />
+                </a>
+                <p class="banner_desc">
+                    <span class="bigtit">멤버십을 위한<br /><span>_</span><br /></span>
+                    <strong>단 3일간 <br />만나는 <br />올리브영데이</strong><br />
+                    <span>최대 60% 할인혜택 누려요</span>
+                </p>
+                <p>
+                <ul class="main_cate_list">
+                    <li></li>
+                    <li class="menu">
+                        <p class="li1"><a href="https://bit.ly/3yWkkKV">기초화장품</a></p>
+                    </li>
+                    <li class="menu">
+                        <p class="li2"><a href="https://bit.ly/39VO3c9">더모코스메틱</a></p>
+                    </li>
+                    <li class="menu">
+                        <p class="li3"><a href="https://bit.ly/3m31DO5">메이크업º네일</a></p>
+                    </li>
+                    <li class="menu">
+                        <p class="li4"><a href="https://bit.ly/3lI3nfg">바디케어</a></p>
+                    </li>
+                    <li class="menu">
+                        <p class="li5"><a href="https://bit.ly/3yYcQa2">헤어케어</a></p>
+                    </li>
+                    <li class="menu">
+                        <p class="li6"><a href="https://bit.ly/3zgtGBt">향수/디퓨저</a></p>
+                    </li>
+                    <li class="menu">
+                        <p class="li7"><a href="https://bit.ly/3lINsxd">미용소품</a></p>
+                    </li>
+                    <li class="menu">
+                        <p class="li8"><a href="https://bit.ly/3sXnU3C">남성</a></p>
+                    </li>
+                    <li class="menu">
+                        <p class="li9"><a href="https://bit.ly/3MPdsDf">건강/위생용품</a></p>
+                    </li>
+                    <li class="menu">
+                        <p class="li10"><a href="https://bit.ly/39Xk3g3">건강식품</a></p>
+                    </li>
+                    <li class="menu">
+                        <p class="li11"><a href="https://bit.ly/3wS7MRU">푸드</a></p>
+                    </li>
+                    <li class="menu">
+                        <p class="li12"><a href="https://bit.ly/3GiymIt">라이프/홈</a></p>
+                    </li>
+                    <li class="menu">
+                        <p class="li13"><a href="https://bit.ly/3MNUqNf">반려동물</a></p>
+                    </li>
+                    <li class="menu">
+                        <p class="li14"><a href="https://bit.ly/3Nwx8LU">베이비</a></p>
+                    </li>
+                    <li class="main_menu">
+                        <span class="li15"><img width="20px"
+                                src="https://www.oliveyoung.co.kr/pc-static-root/image/comm/icon_awards_32.png"></span>
+                        <a href="https://bit.ly/3N1XJ3u">
+                            AWARDS</a></img>
+                    </li>
+                </ul>
+                </p>
+
+                <span class="button1">
+                    <div class="pre button>"><button type="button" onclick="alert('이전')">
+                            <img class="profile" width="30px" height="30px" src="이전버튼.jpg"></button>
+                    </div>
+                    <div class="numbering">1/15</div>
+                    <div class="next button"><button type="button"><img class="profile" width="30px" height="30px"
+                                src="다음버튼.jpg"></button></div>
+                    <div class="stop button"><button type="button"><img class="profile" width="30px" height="30px"
+                                src="멈춤버튼.jpg"></button></div>
+                </span>
+            </div>
+            <!-- mid_banner -->
+            </br>
+            <div class="content2">
+                <span class="up1">
+                    <a href="https://bit.ly/3N5olRz" class="home_banner_top_split">
+                        <img src="https://bit.ly/3M2rIY9" alt="올리브영에서 건강올령!" />
+                    </a>
+                </span>
+                <span class="up2">
+                    <a href="https://bit.ly/3MQUMD2" class="home_banner_top_split">
+                        <img src="https://bit.ly/39VJ5MA" alt="골때녀_노윤주 추천 이너뷰티" />
+                    </a>
+                </span>
+            </div>
+        </div>
+
+        <!-- last banner -->
+        </br>
+        <div class="content3">
+            <!-- last left banner -->
+
+            <div class="left_title">
+                <br>유사한 고객님이</br>많이 구매했어요</strong>
+
+            </div>
+
+            <div class="moreBtn1">더보기
+                <botton type="button"><img width="6" height="10" src="more버튼.png" class="moreBtn1_1"></botton>
+            </div>
+
+
+
+
+            <div class=left_img_two_area>
+                <span class="left_img1">
+                    <img width="215" height="215" src="https://bit.ly/38mNacm" alt="폰즈 뉴스파 립앤아이리무버 120ml 1+1 기획">
+                </span>
+                <span class="left_img2">
+                    <img width="215" height="215" src="https://bit.ly/3LS1ZBv"
+                        alt="[단독기획] 마녀공장 퓨어 클렌징 오일 300ml (+ 25ml + 필링젤20ml+블랙헤드 킬패드 5매 증정)">
+                </span>
+            </div>
+            <div class="left_img1_name">
+                <p class="name1">폰즈 뉴스파 립앤아이리무버 120ml 1+1 기획</p>
+                <button class="bsc1" type="button"><img width="20" height="20" src="https://bit.ly/3tnyPnx"></button>
+                <div class="left_img2_name">
+                    <p class="name2">[단독기획] 마녀공장 퓨어 클렌징 오일 300ml (+ 25ml...)</p>
+                    <button class="bsc2" type="button"><img width="20" height="20"
+                            src="https://bit.ly/3tnyPnx"></button>
+                </div>
+                <p class="price1"><span class="tx_num">10,900원</span></p>
+                <p class="price2"><span class="tx_num2">19,900원</span></p>
+                <p class="todayntc"><span class="todayicon1">오늘드림</span></p>
+                <p class="todayntc"><span class="todayicon2">세일</span><span class="todayicon3">오늘드림</span></p>
+
+            </div>
+
+            <div class="last_right_banner">
+                <div class="right_title">
+                    <br>최근 본 상품과</br>연관 상품 추천해드려요</strong>
+
+                </div>
+
+                <div class="moreBtn2">더보기
+                    <botton type="button"><img width="6" height="10" src="more버튼.png" class="moreBtn1_1"></botton>
+                </div>
+
+
+            </div>
+            <!-- last right banner -->
+
+            <div class="right_img_two_area">
+                <span class="right_img1">
+                    <img width="215" height="215" src="https://bit.ly/3MRSZ0h"
+                        alt="센카 퍼펙트 휩 페이셜 워시 더블 기획 (본품 120g*2+더블워시 15g 증정">
+                </span>
+
+                <span class="right_img2">
+                    <img width="215" height="215" src="https://bit.ly/3xc3CVt"
+                        alt="셀퓨전씨 토닝 썬스크린 100 스페셜 한정 기획 (35ml+35ml+20ml)">
+                </span>
+
+            </div>
+
+            <div class="right_img1_name">
+                <p class="name3">폰즈 뉴스파 립앤아이리무버 120ml 1+1 기획</p>
+                <button class="bsc3" type="button"><img width="20" height="20" src="https://bit.ly/3tnyPnx"></button>
+                <div class="right_img2_name">
+                    <p class="name4">[단독기획] 마녀공장 퓨어 클렌징 오일 300ml (+ 25ml...)</p>
+                    <button class="bsc4" type="button"><img width="20" height="20"
+                            src="https://bit.ly/3tnyPnx"></button>
+                </div>
+                <p class="price3"><span class="tx_num3">10,900원</span></p>
+                <p class="price4"><span class="tx_num4">19,900원</span></p>
+                <p class="todayntc"><span class="todayicon4">오늘드림</span></p>
+                <p class="todayntc"><span class="todayicon5">쿠폰</span><span class="todayicon6">세일</span></p>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+    <!--예림-->
+    <div class="entire">
+        <div class="banner1">
+            <div class="title">
+                <a href="https://www.oliveyoung.co.kr/store/main/getOnlyOneList.do" class="a">
+                    <span style="font-size: 16px;">EXCLUSIVE</span>
+                    <strong>오직 올리브영에서만</a>
+                        <span><button class="button_num">1</button></span>
+                        <span><button class="button_num">2</button></span>
+                    </strong>
+            </div>
+
+            <div class="mini1">
+                <span>
+                    <img class="img"
+                        src="https://image.oliveyoung.co.kr/uploads/images/display/90000010001/6/6748796572686939943.jpg">
+                    <span class="text">
+                        <h3>바이오힐보X강다니엘👑</h3>
+                        <div>금액대별 정품 증정까지!</div>
+                    </span>
+                </span>
+
+                <span>
+                    <img class="img"
+                        src="https://image.oliveyoung.co.kr/uploads/images/display/90000010001/6/114782549387847477.jpg">
+                    <span class="text">
+                        <h3>브링그린X세븐틴</h3>
+                        <div>티트리 시카 커밍순!</div>
+                    </span>
+                </span>
+
+                <span>
+                    <img class="img"
+                        src="https://image.oliveyoung.co.kr/uploads/images/display/90000010001/6/8375225260508821294.jpg">
+                    <span class="text">
+                        <h3>화제의 콜라보 굿즈세트</h3>
+                        <div>+달고나 스마트톡 증정!</div>
+                    </span>
+                </span>
+            </div>
+        </div>
+
+        <div class="banner2">
+            <div class="title">
+                <strong style="border-bottom: 1px solid gray; width: 100%;">이 상품 어때요?
+                    <span><button class="button_num">1</button></span>
+                    <span><button class="button_num">2</button></span>
+                    <span><button class="button_num">3</button></span>
+                </strong>
+            </div>
+            <button class="button_next_left">《</button>
+
+            <div class="mini2">
+                <div class="items">
+                    <span>
+                        <img src="https://image.oliveyoung.co.kr/uploads/images/goods/400/10/0000/0016/A00000016200913ko.jpg?l=ko"
+                            style="width: 90%; height:auto!important" ;>
+                    </span>
+
+                    <span class="subject">헉슬리</span>
+                    <div class="comment">헉슬리 퍼퓸 15ml<br> 3종 중 택1</div>
+                    <div>
+                        <span class="price"><del>48,000원</del></span><span class="sale">39,800원</span>
+                    </div>
+                    <span class="icon_flag">
+                        <span class="sale">세일</span>
+                        <span class="gift">증정</span>
+                        <span class="delivery">오늘드림</span>
+                    </span>
+
+                    <div class="icon_best">베스트</div>
+                    <div class="icon_heart" style="font-size: 20px;">♡</div>
+                </div>
+
+                <div class="items">
+                    <span>
+                        <img src="https://image.oliveyoung.co.kr/uploads/images/goods/400/10/0000/0016/A00000016557901ko.jpg?l=ko"
+                            style="width: 90%; height:auto!important" ;>
+                    </span>
+
+                    <span class="subject">질레트</span>
+                    <div class="comment">질레트 닥터스트레인지 <br>프로글라이드 파워 한정기획</div>
+                    <div>
+                        <span class="price"><del>29,9000원</del></span><span class="sale">25,900원</span>
+                    </div>
+
+                    <span class="icon_flag">
+                        <span class="sale">세일</span>
+                        <span class="gift">증정</span>
+                        <span class="delivery">오늘드림</span>
+                    </span>
+
+                    <div class="icon_best">베스트</div>
+                    <div class="icon_heart" style="font-size: 20px;">♡</div>
+                </div>
+
+                <div class="items">
+                    <span>
+                        <img class="img"
+                            src="https://image.oliveyoung.co.kr/uploads/images/goods/400/10/0000/0016/A00000016589603ko.jpg?l=ko"
+                            style="width: 90%; height:auto!important" ;>
+                    </span>
+
+                    <span class="subject">바비브라운</span>
+                    <div class="comment">[1+1기획] 바비브라운 <br>엑스트라 립 틴트 기획 3종</div>
+                    <div>
+                        <span class="sale">44,000원</span>
+                    </div>
+
+                    <span class="icon_flag">
+                        <span class="gift">증정</span>
+                        <span class="delivery">오늘드림</span>
+                    </span>
+
+                    <div class="icon_best">베스트</div>
+                    <div class="icon_heart" style="font-size: 20px;">♡</div>
+                </div>
+
+                <div class="items">
+                    <span>
+                        <img class="img"
+                            src="https://image.oliveyoung.co.kr/uploads/images/goods/400/10/0000/0016/A00000016651902ko.jpeg?l=ko"
+                            style="width: 90%; height:auto!important" ;>
+                    </span>
+
+                    <span class="subject">꼬달리</span>
+                    <div class="comment">[1+1증정] 꼬달리 <br>핸드 앤 립 듀오</div>
+                    <div>
+                        <span class="sale">44,000원</span>
+                    </div>
+
+                    <span class="icon_flag">
+                        <span class="gift">증정</span>
+                        <span class="delivery">오늘드림</span>
+                    </span>
+
+                    <div class="icon_heart_error" style="font-size: 20px;">♡</div>
+                </div>
+
+            </div>
+
+            <button class="button_next_right">》</button>
+
+        </div>
+
+        <div class="banner3">
+            <div class="title">
+                <strong>Heathy Life</strong>
+            </div>
+            <div>
+                <button class="button_next_left">《</button>
+            </div>
+            <div class="mini3">
+                <span>
+                    <img class="img"
+                        src="https://image.oliveyoung.co.kr/uploads/images/display/90000010001/289/4762393897941695301.jpg">
+                    <span class="text">
+                        <h3>청년도배사 추천 클렌징</h3>
+                        <div>유퀴즈 출연 청년도배사의<br>현장 속 아이템 소개합니다</div>
+                    </span>
+                </span>
+
+                <span>
+                    <img class="img"
+                        src="https://image.oliveyoung.co.kr/uploads/images/display/90000010001/289/6920789122630632278.png">
+                    <span class="text">
+                        <h3>국대 장은실선수의 건강루틴</h3>
+                        <div>17년차 레슬러가 추천하는<br>건강관리 아이템 소개합니다</div>
+                    </span>
+                </span>
+
+                <span>
+                    <img class="img"
+                        src="https://image.oliveyoung.co.kr/uploads/images/display/90000010001/289/160095388447261047.jpg">
+                    <span class="text">
+                        <h3>노윤주 아나운서의 이너뷰티</h3>
+                        <div>스포츠에 진심인 골때녀키퍼<br>노윤주의 건강루틴 소개합니다</div>
+                    </span>
+                </span>
+
+            </div>
+
+            <button class="button_next_right">》</button>
+
+        </div>
+    </div>
+
+    <!--병진-->
+    <div id="Container">
+        <div id="Contents">
+            <div class="main_customer_box">
+                <div class="notice_area">
+                    <h4>공지사항</h4>
+                    <div class="notice_cont">새로운 소식이 없어요.</div>
+                    <a href="https://www.oliveyoung.co.kr/store/counsel/getNoticeList.do" class="more_view">더보기</a>
+                </div>
+                <div class="customer_area">
+                    <h4>고객센터</br>이용안내</h4>
+                    <div class="tel_info">
+                        <ul>
+                            <li>
+                                <strong>온라인몰 고객센터</strong>
+                                <img src="https://image.oliveyoung.co.kr/pc-static-root/image/main/img_online_tel.png"
+                                    alt="1522-0882">
+                            </li>
+                        
+                            <li>
+                                <strong>매장 고객센터</strong>
+                                <img src="https://image.oliveyoung.co.kr/pc-static-root/image/main/img_offline_tel.png"
+                                    alt="1577-4887">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="online_info">
+                        <p class="time_info">고객센터 운영시간[평일09:00 - 18:00]</p>
+                        <p>주말 및 공휴일은 1:1문의하기를 이용해주세요</br>
+                            업무가 시작되면 바로 처리해 드리겠습니다.</p>
+                        <!--자바 스크립트로 인해 a태그를 이용해서 페이지 이동-->
+                        <a href="https://www.oliveyoung.co.kr/store/counsel/getQnaList.do?cnslSeq="><button
+                                class="btnInquiry"
+                                onclick="javascript:common.link.moveQnaList();"><span></span>1:1문의하기</button></a>
+                        <a href="https://www.oliveyoung.co.kr/store/counsel/getFaqList.do?faqLrclCd=99"><button
+                                class="btnFaqTop" onclick="javascript:common.faq.getFaqList('99');"><span></span>자주하는
+                                질문</button></a>
+                    </div>
+                </div>
+                <div class="app_down_link">
+                    <img src="https://image.oliveyoung.co.kr/pc-static-root/image/main/img_mobile_app.png"
+                        alt="올리브영 모바일 웹-앱을 설치하고 다양한 혜택을 누리세요!">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    const category = document.querySelector(".category");
+
+    category.addEventListener("click", () => {
+        if (category.classList.contains("test")) {
+            category.classList.remove("test");
+        } else {
+            category.classList.add("test");
+        }
+    })
+
+    const search_box = document.querySelector(".search_box");
+    search_box.addEventListener("click", () => {
+        if (search_box.classList.contains("test")) {
+            search_box.classList.remove("test");
+        } else {
+            search_box.classList.add("test");
+        }
+    })
+
+    const show3 = document.querySelector(".show3");
+    show3.addEventListener("click", () => {
+        if (show3.classList.contains("test")) {
+            show3.classList.remove("test");
+        } else {
+            show3.classList.add("test");
+        }
+    })
+
+
+
+</script>
+
+</html>

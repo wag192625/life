@@ -1,0 +1,52 @@
+/* search_box */
+.search_box {
+  /* float: left;  div에서 float 설정시 display 요소가 먹히지 않아 삭제*/
+  position: relative;
+  width: 271px;
+  height: 36px;
+  left: 35px;
+  /* margin: 0px  0 90px;  줄 필요 없음*/
+  padding: 0 45px 0 20px;
+  border: 2px solid #9bce26;
+  background: rgb(255, 255, 255);
+  border-radius: 20px
+}
+
+.search_box input[type=text] {
+  width: 260px;
+  height: 18px;
+  border: 0;
+  /* padding: 8px 10px 8px 0; */
+  font-size: 12px
+}
+
+.search_box_btn {
+  position: absolute;
+  /* 절대좌표로 이동 */
+  top: 7px;
+  right: 12px;
+  border: none;
+  /* 버튼 외곽선 제거 */
+  background-color: transparent;
+  /* 버튼 기본색 투명화 */
+}
+
+.search_box_list {
+  display: none;
+}
+
+.search_box.test .search_box_list {
+  display: flex;
+  position: absolute;
+  width: 336px;
+  top: -2px;
+  left: -2px;
+  height: 360px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #9bce26;
+  margin: 0;
+  text-indent: 3px;
+  border-radius: 20px;
+  z-index: 1;
+
+}

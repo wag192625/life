@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+<script>
+        // let stringToArray = answer(" ");
+        // toUpperCase
+        // return answer;
+
+    function solution(s) {
+    let answer = '';
+    let arr = s.split(' ');
+    // 문자열 완전히 분해 하려다가 문자열끼리 묶어야 해서 공백으로 해놓음
+    console.log(arr);
+    // 문자간의 공백은 대소문자 구분이 없어서 오류
+    
+    for (let i = 0; i < s.length; i++) {
+        // 시작값 0 / s 문자열까지 반복/ 1회씩 반복
+        if (s[i] == ' '){
+            answer += " ";}
+        //만약 배열이 공백이면 공백으로 표시 
+        //(공백을 기준으로 하는게 아니라서 잘못된 식인듯)
+        else 
+        if (i % 2 === 0){
+        // 만약 i 를 2로 나누었을 때 0과 '일치'하면
+            answer += s[i].toUpperCase();
+        // 짝수를 (0도 짝수로 포함) 대문자로 변경
+        } else {
+        // 나머지가 0이 아닌 값은 
+            answer += s[i].toLowerCase();
+        // 소문자로 변경
+        }
+    }
+    return answer;
+}
+console.log(solution("trys hello world"));
+
+</script>
+</body>
+</html>

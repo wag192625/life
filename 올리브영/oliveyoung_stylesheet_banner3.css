@@ -1,0 +1,71 @@
+/* <Healty Life> */
+.banner3{display: flex;
+        flex:1;
+        position: relative;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+        margin:0px auto;
+        padding:0px ;
+        width: 1420px;
+        height: 550px;
+        right: 195px;}
+        
+.banner3 .title{display: flex;
+                justify-content: center;
+                margin-top: -10px;
+                text-align: center;}
+
+.banner3 .button_next_left{position: relative;
+                        top: 200px;
+                        left: 5px;
+                        z-index: 2;
+                        background-position: 0 0;
+                        border: 1px solid black;
+                        background-color: #f6f6f6;
+                        border-radius: 30px 30px 30px 30px;
+                        width: 30px;
+                        height: 30px;}
+.button_next_left:hover{background-color: #e1bee7; color: black;}
+
+.banner3 .button_next_right{position: relative;
+                        bottom: 240px;
+                        left: 1385px;
+                        z-index: 2;
+                        background-position: 0 0;
+                        border: 1px solid black;
+                        background-color: #f6f6f6;
+                        border-radius: 30px 30px 30px 30px;
+                        width: 30px;
+                        height: 30px;}
+.button_next_right:hover{background-color: #e1bee7; color: black;}
+
+.banner3 .mini3{ display: flex;
+                margin: 20px 100px;
+                padding: 10px 10p 10px 10px;
+                width: 1200px;
+                height: 350px;
+                justify-content: space-around;}
+            
+.banner3 .img{display: flex;
+            margin-top: 25px;
+            position: relative;
+            bottom: 65px;
+            width: 320px;
+            height: 430px;
+            border-radius: 20px;
+            object-fit:cover;}
+
+.banner3 .text{display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            box-sizing: border-box;
+            position:relative;
+            border: 0px solid;
+            width: 300px;
+            height: 50px;
+            bottom: 170px;
+            left: 20px;
+            z-index: 1;
+            color: white;
+            font-size: 15px;}

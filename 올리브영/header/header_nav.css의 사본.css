@@ -1,0 +1,122 @@
+/* nav 영역 */
+nav {
+    display: flex;
+    /* 컨테이너로 가로정렬 */
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    width: 100vw;
+    /* header에서 1020px로 고정해놨지만 홈페이지상 위 아래로 줄이 있어
+    가로 화면 전체를 줄 긋기 위해 사용*/
+    margin-left: calc((100vw - 1020px) / 2 * -1);
+    /* width로 화면 전체에 줄을 그었지만 '카테고리'부터 줄 시작되서 
+    calc(계산)로 Viewport width에 1020px 계산 후 -1 값을 줘서 좌측으로 이동  */
+    border-bottom: 2px solid black;
+  }
+  
+  nav>div {
+    display: flex;
+    width: 1020px;
+    margin: 0 auto;
+    /* 값이 2개만 있을 경우 첫번째는 상하 두번째는 좌우 값으로 적용*/
+  }
+  
+  .category {
+    position: relative;
+    width: 178px;
+    font-weight: 500;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    font-size: 16px;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .category_list {
+    display: none;
+    text-align: left;
+  }
+  
+  .category_list>li h2 {
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 17px;
+    border-bottom: 1px solid #666;
+    color: black;
+  }
+  
+  .category_list>li {
+    font-size: 14px;
+    display: list-item;
+    width: 254px;
+    padding: 30px 0 0 30px;
+  }
+  
+  .category_list>li:first-child {
+    width: 508px;
+    border-left: none;
+  }
+  
+  .category_name {
+    display: flex;
+    font-size: 16px;
+    padding: 10px 10px 22px 12px;
+    border-bottom: 1px solid #666;
+  
+  }
+  
+  .category_box {
+    float: left;
+    width: 155px;
+  }
+  
+  .category_box>p {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  
+  .category_box ul {
+    display: flex;
+    /* align-content: flex-start; */
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    /* overflow: auto; */
+    /* white-space: nowrap; */
+    line-height: 22px;
+    margin: 10px 6px 10px 0px;
+    color: #666;
+  }
+  
+  /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+  .category.test .category_list {
+    display: flex;
+    position: absolute;
+    top: 41px;
+    left: -1px;
+    width: 1020px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin: 0;
+    text-indent: 3px;
+  }
+  
+  .category2 {
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .category2 ul {
+    height: 100%;
+    font-weight: 600;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .category2 li:hover {
+    color: rgb(255, 78, 108);
+    border-bottom: 2px solid rgb(254, 78, 108);
+  }

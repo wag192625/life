@@ -1,0 +1,105 @@
+/*-----------고객센터----------------*/
+
+.main_customer_box .customer_area {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 640px;
+    /*640px*/
+    /*padding 상↑조정*/
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    line-height: 24px
+}
+
+.main_customer_box .customer_area .tel_info {
+    /*전화번호*/
+    float: left;
+    width: 245px;
+    padding-left: 2px
+}
+
+.main_customer_box .customer_area .tel_info li+li {
+    /*온라인몰, 매장 고객센터 margin*/
+    position: relative;
+    margin-top: 60px;
+    right: 145px;
+}
+
+
+.main_customer_box .customer_area .tel_info strong {
+    /*온라인몰, 매장 고객센터 : 위치 및 글씨 색변경, 블록화*/
+    display: block;
+    margin-bottom: 3px;
+    color: #888
+}
+
+
+/*어느 부분에서 사용하는지 모르겠음*/
+.main_customer_box .customer_area .tel_info .email_addr {
+
+    color: #888;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+.main_customer_box .customer_area .online_info {
+    float: left;
+    width: auto;
+    /*300px auto를 주는 이유는 300px를 주면 넘어가기 때문에 auto를 줘서 자동조절함*/
+}
+
+.main_customer_box .customer_area .online_info .time_info {
+    /*고객센터 운영시간 글씨색 변화*/
+    color: #000;
+    margin-bottom: 5px;
+    font-weight: 700
+}
+
+.main_customer_box .customer_area .online_info>p {
+    /*문의하기, 자주하는 질문 글씨 색 및 위치변화*/
+    margin-top: 2px;
+    color: #888;
+    line-height: 22px
+}
+
+.main_customer_box .customer_area .online_info button {
+    /*문의하기, 자주하는 질문 버튼 변화*/
+    width: 140px;
+    height: 60px;
+    background: #aaa;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: -.02em
+}
+
+.main_customer_box .customer_area .online_info button>span {
+    /*1:1문의하기, 자주하는 질문 버튼 이미지*/
+    display: inline-block;
+    /*버튼 안에 있는 이미지와 글자 사이의 거리 조절*/
+    margin-right: 10px;
+    background: url("https://www.oliveyoung.co.kr/pc-static-root/image/main/ico_customer.png") no-repeat 0 0
+}
+
+.main_customer_box .customer_area .online_info button.btnInquiry>span {
+    /*1:1문의하기 버튼 이미지 값*/
+    width: 22px;
+    height: 27px;
+    background-position: 0 0;
+    vertical-align: middle
+}
+
+.main_customer_box .customer_area .online_info button.btnFaqTop {
+    /*1:1문의하기, 자주하는 질문 사이 공백*/
+    margin-left: 10px
+}
+
+.main_customer_box .customer_area .online_info button.btnFaqTop>span {
+    /*자주하는 질문 버튼 이미지 엘리먼트*/
+    width: 25px;
+    height: 23px;
+    background-position: 0 -27px;
+    vertical-align: middle
+        /*세로로 정렬*/
+}
