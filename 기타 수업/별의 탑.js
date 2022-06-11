@@ -15,7 +15,7 @@
         }
         return answer;
     }
-    console.log=n[10];
-    
+    console.log(star(3));
+
     // 일단 코드를 쳐보고 막히는 부분이 있을건데
     // 왜 막힌지를 처음부터 봐야함
