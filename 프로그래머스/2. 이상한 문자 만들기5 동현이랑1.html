@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+<script>
+        // let stringToArray = answer(" ");
+        // toUpperCase
+        // return answer;
+
+        function solution(s) {
+//함수선언 함수명 (매개변수)
+    let arr = s.split (" ") ;
+    let t = arr [0];
+    let h = arr [1];
+    let w = arr [2];
+    let an = '';
+    let sw = '';
+    let er = '';
+    
+    for (let i = 0; i < t.length; i++) {
+        if (i % 2 === 0) {
+            an += t[i].toUpperCase();
+        } else {
+            an += t[i].toLowerCase();
+        }
+    }
+    for (let i = 0; i < h.length; i++) {
+        if (i % 2 === 0) {
+            sw += h[i].toUpperCase();
+        } else {
+            sw += h[i].toLowerCase();
+        }
+    }
+    for (let i = 0; i < w.length; i++) {
+        if (i % 2 === 0) {
+            er += w[i].toUpperCase();
+        } else {
+            er += w[i].toLowerCase();
+        }
+    }
+    let answer = an +' '+ sw +' '+ er;
+    return answer;
+}
+
+console.log(solution("trys hello world"));
+
+</script>
+</body>
+</html>

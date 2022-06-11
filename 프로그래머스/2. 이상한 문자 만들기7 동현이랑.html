@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+<script>
+        // let stringToArray = answer(" ");
+        // toUpperCase
+        // return answer;
+
+    function solution(s) {
+    let answer = '';
+    let arr = s.split(" ");
+    //띄어쓰기를 기준으로 분할작업(예시 기준 인덱스 3개로 분할)
+    //arr의 인덱스가 3임(try, hello, world)
+    for(let i = 0; i < arr.length; i++){
+        //배열 길이만큼
+        for(let j = 0; j < arr[i].length; j++){
+            //배열의 인덱스 길이만큼
+            if(j % 2 === 0){//짝수의 경우 대문자로 출력
+                answer += arr[i][j].toUpperCase();
+            }
+            else{//홀수의 경우 소문자로 출력
+                answer += arr[i][j].toLowerCase();
+            }
+        }
+        if(i == arr.length-1){
+        // 맨 마지막 띄어쓰기를 방지하기 위함 = i=0인데 3까지 
+        // 반복하면 띄어쓰기가 하나 더 생김
+        //  i = 0
+        // try+ " "
+        // i = 1
+        // try + " " + hello + " "
+        // i = 2
+        // try + " " + hello + " " + world + " "
+        // 결과물은 try hello world+" "
+        // 그래서 마지막 " " 이것을 없애기 위해서
+        // arr.length-1을 만든것
+        // arr.length는 3
+        // i는 0부터
+        // try hello world는 사이에 띄어쓰기가 2회있음
+        // 그럼 2번까지 띄어쓰기를 반복할 필요가 있음
+        // i < arr.length는 0<3이므로
+        // 0,1,2를 반복하여
+        // 띄어쓰기를 3회반복
+        // i < arr.length-1은 0<2
+        // 0,1만 반복하므로 2회만 띄어쓰기 추가
+            break;
+        }
+        else{
+            answer += " ";
+        }
+    }
+    return answer;
+}
+console.log(solution("trys hello world"));
+
+</script>
+</body>
+</html>
