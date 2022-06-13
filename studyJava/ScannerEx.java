@@ -8,6 +8,7 @@ public class ScannerEx { // vs코드에서 main 사용 함수명이랑 파일 �
     //스캐너라는 클래스의 구조로만 만들 수 있음
     public static void main(String args[]) { // 주소 순서대로 읽음
         System.out.println("이름, 도시, 나이, 체중, 독신 여부를 빈칸으로 분리하여 입력하세요.");
+        // ln이란?
         Scanner scanner = new Scanner(System.in);
         // Scanner abc abc는 스캐너만 받을 수 있다
         // =type   abc    
