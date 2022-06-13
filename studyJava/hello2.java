@@ -36,11 +36,13 @@ class hello2 {
 }
 */
 
-
 import java.util.ArrayList;
 
 class hello2 {
     public static void main(String[] arg) {
+// public 모든곳에서 접근가능
+
+// String은 가변
         System.out.println("programers start!");
         
 
@@ -52,10 +54,14 @@ class hello2 {
         // inputArray.set(0, "June");
         // System.out.println(inputArray);
         System.out.println(solution(inputArray));
-        
     }
 
     public static String solution(ArrayList<String> seoul) {
+
+            // if(seoul.get(i).equals("Kim")) {
+            // ArrayList는 equals를 쓸 수 없고 고정배열만 쓸 수 있다.
+            // 해서 이 문장을 사용할거면
+            
         System.out.println(seoul.size());
         String answer = "";
         // seoul 배열을 순회해서 Kim의 위치 찾기
