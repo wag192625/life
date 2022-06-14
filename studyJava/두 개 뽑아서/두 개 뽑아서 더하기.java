@@ -57,7 +57,6 @@ class Solution {
         sum += numbers[i] + numbers[j];
         arrayListTest.add(sum);     // 다른조 이 줄 추가했길래 함 써봄
       }
-
       //더한 값을 집어넣을 변수 하나 만들어야함 -> sum으로 만듦
       }
     System.out.println();
