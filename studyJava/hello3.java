@@ -3,12 +3,10 @@
 //인스턴스  설계도를 바탕으로 구현된 구체적인 실체
 //          (수학의 문제의 식이라 생각됨. 답은 컴퓨터가 풀 것임)
 
-
 import java.util.ArrayList;
 // import 받아온다
 // 주소는 자세히 써야함
 // java.util.ArrayList
-
 
 class hello3 {
 // class 설계도
@@ -25,14 +23,15 @@ class hello3 {
     // arg: String 자료형에 대한 변수명
     // (String[] arg)은 통로라 생각
 
-        System.out.println("programmers start!");
+        // System.out.println("programmers start!");
+        
     // System.out.println = 화면에 값을 출력하는 용도
     // print 만 할 경우 줄바꿈이 안된다.
     // ln을 찍으면 한줄 띄어쓰기
         ArrayList<String> inputArray = new ArrayList<String>();
         // ArrayList 가변
         // 저버눈 ㄱㅎㅇ건울 마라 손온
-        // ~~~ 선언
+        // ㄴ ~~~ 선언
         // 변수명 =new 가 붙으면 새로 만든다. 타입은 동일하게 해야 에러 안남.
         // () 붙은 이유는 구분하기 위하여
         
@@ -53,6 +52,8 @@ class hello3 {
         System.out.println(solution(inputArray));
     // 출력
 }
+
+
     public static String solution(ArrayList<String> inputArray){
         System.out.println(inputArray.size());
         // size 다음에 () <-이거도 메소드라 함
@@ -77,10 +78,11 @@ class hello3 {
             //위치 저장
         }
 
-        StringBuffer text_test = new StringBuffer("hellow");
-        text_test.append("abc");
-        text_test.append("abc");
-        System.out.println(text_test.length());
+        // StringBuffer text_test = new StringBuffer("hellow");
+        // text_test.append("abc");
+        // text_test.append("abc");
+        // System.out.println(text_test.length());
+
         // "김서방은 [배열위치]에 있다" (string 불변성)
         // answer = 김서방 + [배열위치] + 에 있다.
         // 스트링 버퍼는 어레이 리스트 속성으로 들어가서 순차적
