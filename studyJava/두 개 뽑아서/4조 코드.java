@@ -1,10 +1,10 @@
-/*
+
 import java.util.ArrayList;
 import java.util.Array;
 import java.util.HashSet;
 
 class Solution {
-    public static void main(String[] args) {
+    public static void ma /*aaaaaa */ in(String[] args) {
         int[] numbers = {2,1,3,4,1};
         solution(numbers);
     }
@@ -27,4 +27,3 @@ class Solution {
         }
     }
 }
-*/

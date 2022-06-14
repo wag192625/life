@@ -39,7 +39,7 @@ class Solution {
 
   public static int[] solution(int[] numbers) {
   //스태틱이 아니라 int[]면 뭘까?          //정수만 받겠다[배열선언] / 값이 들어오는 통로
-    int[] arr = numbers;  
+    int[] arr = numbers;
     int sum = 0; // S
     int[] answer = {}; // 최종 값 배열
       // 배열 두개씩 각각 합한 후
@@ -53,9 +53,9 @@ class Solution {
     // 합의 메소드 생성
     for(int i=0; i < arr.length; i++) {
       for(int j=i+1; j < arr.length; j++){
-        // sum += j + i;
-        sum += numbers[i] + numbers[j];
-        arrayListTest.add(sum);     // 다른조 이 줄 추가했길래 함 써봄
+        sum += j + i;
+        // sum += numbers[i] + numbers[j];    // 다른조 이 줄 추가했길래 함 써봄
+        // arrayListTest.add(sum);            // 근데 위에 식으로 했을 때랑 똑같은 이유가 뭐지
       }
       //더한 값을 집어넣을 변수 하나 만들어야함 -> sum으로 만듦
       }
