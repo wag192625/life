@@ -16,7 +16,7 @@ public class abcd {
         int[] array = numbers;
         int sum = 0;
         for(int i = 0; i < array.length-1; i++) {
-            for(int j = i + 1; i < array.length; j++) {
+            for(int j = i + 1; j < array.length; j++) {
             list.add(array[i]+array[j]);
                 }
             }
