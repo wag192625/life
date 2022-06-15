@@ -5,16 +5,16 @@ import java.util.HashSet;
 
 public class abcd {
     public static void main(String[] arg) {
-        int[] numbers = {1,3,6,8,7,1};      
-        int[] answer = solution(numbers);
-            for(int i = 0; i<answer.length; i++){
-                System.out.println(answer[1]);
-            }
-        }    
+        int[] numbers = {1,3,6,8};      
+        // int[] answer = solution(numbers);
+            // for(int i = 0; i<answer.length; i++){
+            //     System.out.println(answer[1]);
+            // }
+    }
     public static int[] solution(int[] numbers) {
         List<Integer> list = new ArrayList<Integer>();
         int[] array = numbers;
-        int sum = 0;
+        int[] answer = solution(numbers);;
         for(int i = 0; i < array.length-1; i++) {
             for(int j = i + 1; j < array.length; j++) {
             list.add(array[i]+array[j]);
@@ -34,6 +34,7 @@ public class abcd {
     
         // System.out.println();
         return answer;
+        
     }
 }
 
