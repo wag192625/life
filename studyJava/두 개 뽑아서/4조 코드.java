@@ -4,12 +4,12 @@ import java.util.Array;
 import java.util.HashSet;
 
 class Solution {
-    public static void ma /*aaaaaa */ in(String[] args) {
+    public static void main(String[] args) {
         int[] numbers = {2,1,3,4,1};
         solution(numbers);
     }
 
-    public static int[] solution(int[] number) {
+    public static int[] solution(int[] numbers) {
         HashSet<Integer> answerSet = new HashSet<Integer>();
         int sum;
 
