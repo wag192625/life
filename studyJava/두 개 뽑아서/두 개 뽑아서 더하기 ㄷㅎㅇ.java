@@ -1,4 +1,4 @@
-
+/*
 import java.util.ArrayList;
 import java.util.TreeSet;
 
@@ -13,7 +13,7 @@ class Solution {
     int[] arr = numbers;
     int sum = 0; // S
     int[] answer = {}; // 최종 값 배열
-    ArrayList<Integer> arrayListTest /* S */ = new ArrayList<Integer>();문에 넣어
+    ArrayList<Integer> arrayListTest  = new ArrayList<Integer>();문에 넣어
     for(int i=0; i < arr.length; i++) {
       for(int j=i+1; j < arr.length; j++){
         sum += j + i;
@@ -24,3 +24,4 @@ class Solution {
     return answer;
   }
 }
+*/

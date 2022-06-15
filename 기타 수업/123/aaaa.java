@@ -1,8 +1,10 @@
 import java.util.ArrayList;
-import java.util.TreeSet;
+import java.util.List;
+import java.util.Set;
+import java.util.HashSet;
+// import java.util.TreeSet;
 
-class Solution {
-
+public class aaaa {
   public static void main(String[] arg) { //이거는 정석이라고 생각하고 쓰자 S
     int[] numbers = {5,0,2,7} ;
     // 변수 명은 뒤의 변수와 비슷한 의미로 씀
@@ -10,11 +12,12 @@ class Solution {
     // 배열은 한번 사이즈가 정해지면 더이상 늘릴수도  업승ㅁ
     // 5 0 2 7 에서 절대 변경안됨 
     for(int i = 0; i<answer.length; i++){
-    System.out.println(anser[i]);
+    System.out.println(answer[i]);
+    
     //최종값이라 맨 아래 부분 <----------다시 설명
-
     //포 문이 실행될 때 배열이 [] 들어간다 생각하라
     //시스템 아웃은 아직은 내가 보면서 써야한다.
+    }
   }
   //메인 함수는 되도록 적게 쓰는게 (핵심적인것만) 쓰는게
   
@@ -31,13 +34,11 @@ class Solution {
 
   //정수형 리스트를 선언하기 위해 사용/ 함수이름은 어레이 리스트 매개변수같은 인티저
     int[] array = numbers;
-    //
-    // 넘버즈라는 
     int sum = 0; // S
     //ArrayList<Integer> arrayListTest /* S */ = new ArrayList<Integer>();문에 넣어
     for(int i=0; i < array.length-1; i++) {
       // -1 붙은 이유 악수를 마지막으로 한 사람은 모든 사람과 악수를 이미 했다.
-      for(int j=i+1; j < arr.length; j++){
+      for(int j=i+1; j < array.length; j++){
         list.add(array[i]+array[j]);
       }
     }
@@ -52,7 +53,7 @@ class Solution {
       answer [a] = ans.get(a);
     }
     System.out.println();
-
+  
     return answer;
 
 
@@ -60,13 +61,13 @@ class Solution {
     // system.out.println(as); 이런식으로 쓰면 안됨
     // 출력을 할 때 배열의 이름을 출력하면 안됨
     // 배열은 
+    
   }
 }
 
+// 메인 은 보이드를 쓴다.
+// 보이드 써서 리턴 엔서 안쓰고 시스템 프린트를 씀
 
-메인 은 보이드를 쓴다.
-보이드 써서 리턴 엔서 안쓰고 시스템 프린트를 씀
-
-뉴 는 새로운 모듈을 가져온다
-자바의 특징= 사이즈가 정해진 상태로 
+// 뉴 는 새로운 모듈을 가져온다
+// 자바의 특징= 사이즈가 정해진 상태로 
 
