@@ -1,4 +1,5 @@
 import java.util.*;
+
 class Solution {
 // public class abcd {
     public static void main(String[] arg) {
@@ -18,7 +19,7 @@ class Solution {
             // if(!list.contains(array[i]+array[j])) {
             //     list.add(array[i]+array[j]);
             // System.out.println(list);
-            // }
+            //     }
             }
         }
         Set<Integer> set = new HashSet<Integer>(list);
