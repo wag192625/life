@@ -15,10 +15,10 @@ class Solution {
                             //2로 먼저 나누기 위해 설정
                             //왠지 모르겠지만 2가 아니라 3으로 해도 모두 통과
                             if(sum%l == 0 ){
-                                break;//sum의 숫자와 
+                                break; //sum과 l을 나눈 값의 나머지가 0이면 
                             }
                             if(l==sum-1){
-                            //
+                            // l 값이 sum에 -1을 한 값과 같다면 answer값에 추가를 해준다.
                                 answer++;
                             }
                         }
