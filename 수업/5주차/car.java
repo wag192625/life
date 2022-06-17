@@ -6,7 +6,7 @@ public static void main(String[] arg) {
     //인스턴스 생성
     Car myCar = new Car();
     Car anotherCar = new Car();
-    //하위 폴더의 
+    //하위 폴더의 Car를 가져옴
     //heap 에 추가가됨
 
     //인스턴스의 내용 출력
