@@ -5,18 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        
-
-    </style>
+    <script>
+        function add() {
+        let header=document.createElement('h3'); // 요소 노드 생성
+        let textNode=document.createTextNode('내 이름은 정명훈입니다.'); // 텍스트 노드 생성
+        header.appendChild(textNode); // 요소 노드와 텍스트 노드 연결
+        document.body.appendChild(header); // 생성한 문서 객체를 body에 추가
+        };
+        </script>
+    <script>
+        function texthidden() {
+        document.getElementById("msg").style.visibility="hidden";
+        };
+        function textvisible(){
+        document.getElementById("msg").style.visibility="visible";
+        };
+        </script>
 </head>
 <body>
-    <div>
-        당신의 이름은 무엇입니까?</br>
-        <button>답변하기</button>
-        <button>질문 숨기기</button>
-        <button>질문 보이기</button>
-    </div>
-</body>
+        <p id="msg" onclick="add">당신의 이름은 무엇입니까?</p>
+        <input type="button" onclick="add()" value="답변하기">
+        <input type="button" onclick="texthidden()" value="질문 숨기기">
+        <input type="button" onclick="textvisible()" value="질문 보이기">
+        </body>
 </html>
 <script></script>
