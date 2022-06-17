@@ -51,6 +51,7 @@ public class aaaa {
     //ans는 List 타입이라 length 가 안먹힘
     for(int a = 0;a<ans.size(); a++){
       answer [a] = ans.get(a);
+    //answer로 출력해야 하니 ans의 값을 가져와 answer에 대입
     }
     System.out.println();
   
