@@ -1,11 +1,13 @@
-
 function solution() {
-    let ans
     let arr1 = [[1,2],[2,3]] ;
     let arr2 = [[3,4],[5,6]] ;
-    let sum = 0;
-    
-    return sum;
+    let answer = [[],[]];
+    for(let i = 0; i<arr1.length; i++) {
+        for(let j = 0; j<arr1[i].length; j++) {
+            answer[i][j] = arr1[i][j] + arr2[i][j];
+        }
     }
-    let result=printArr();
-    document.write(result);
+    document.write(answer);
+    return answer;
+}
+solution()
