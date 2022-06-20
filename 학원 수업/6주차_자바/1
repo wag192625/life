@@ -1,0 +1,5 @@
+스프링 부트
+하는 이유: 가벼운데 스프링의 기본은 다 들어있음
+스타트 디펜던시를 안해도 됨
+
+설치: initializr -> Gradle Project / java/ 2.7.0 / ~~/Dependencies = Thymeleaf Spring Web 
