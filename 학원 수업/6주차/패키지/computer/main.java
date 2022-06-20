@@ -8,17 +8,17 @@ public class main{
     Scanner input = new Scanner(System.in);
     //Scanner 클래스 사용시 System.in을 사용해야 입력한 값을 읽을 수 있음
 
-    // System.out.println("cpu");    //입력
-    // String inputM1cpu = input.nextLine();
+    System.out.println("씨피유");    //입력
+    String cpu = input.nextLine();
     
-    // System.out.println("ram");    //입력
-    // String inputM1ram = input.nextLine();
+    System.out.println("램");    //입1력
+    String ram = input.nextLine();
     
-    // System.out.println("ssd");    //입력
-    // // ㄴ 입력창. 입력하면
-    // String inputM1ssd = input.nextLine();
+    System.out.println("스스디");    //입력
+    // ㄴ 입력창. 입력하면
+    String ssd = input.nextLine();
     
-    book abc = new book(/* inputM1cpu, inputM1ram, inputM1ssd */);
+    book abc = new book(/*cpu, ram, ssd*/);
     // 패키지 메소드와 동일한 이름
 
     System.out.println(abc.modelName);

@@ -10,7 +10,7 @@ public class Overloading {
     }
     public Overloading(String model) {
         this.model = model;
-    }   //this = 클래스를 가르킴, 위에서 선언한 것을 지정
+    }   //this = 클래스를 가르킴, 가장 가까운 객체를 지정
     public Overloading(String model, String color) {
         this.model = model;
         this.color = color;
@@ -20,5 +20,4 @@ public class Overloading {
         this.color = color;
         this.maxSpeed = maxSpeed;
     }
-    
 }
