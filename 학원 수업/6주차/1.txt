@@ -1,0 +1,15 @@
+스프링 부트
+하는 이유: 가벼운데 스프링의 기본은 다 들어있음
+스타트 디펜던시를 안해도 됨
+
+설치: initializr -> Gradle Project / 
+java/ 2.7.0 / ~~/Dependencies = Thymeleaf Spring Web 
+
+vscode Spring Boot Extension Pack 설치
+
+Overloding
+
+생성자를 만들면 매개변수에 의해서 스타일이 바뀜
+
+클래스가 있는데 이걸 토대로 인스턴스를 뉴로 찍어낼때 매개변수가 데이터 a,b에 따라서
+인스턴스가 스타일이 바뀜
