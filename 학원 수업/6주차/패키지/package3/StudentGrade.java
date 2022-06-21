@@ -11,8 +11,8 @@ public class StudentGrade {
         this.name = input_name;    
     }
     public StudentGrade(String input_name, String input_subject, int input_grade) {
-        this.name = input_name;    
-        this.subject = input_subject;    
-        this.grade = input_grade;    
+        this.name = input_name;
+        this.subject = input_subject;
+        this.grade = input_grade;
     }
 }
