@@ -4,5 +4,6 @@ velog.io/@segi_lee/개발자-직군
 
 WriteFile
 
-
-
+어노테이션의 
+리플렉션***
+어노테이션 문의 class는 컴파일 이후의 내용
