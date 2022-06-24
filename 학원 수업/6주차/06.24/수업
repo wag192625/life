@@ -1,11 +1,16 @@
+https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=bi1189&logNo=221521693365
+
 상속
 프로그램의 꽃 (특히 객체지향)
 중복된 코드를 줄이기 위해 만들어짐
 
+필드와 메소드값만 가져옴
+필드값은 생성자에 인스턴스나 스태틱을 부여하여야 사용 가능
+
 자식 클래스가 부모의 요소를 '선택'해서 물려받음
 자식 생성자에 public static public class ~~~ 'extends' <-이거
 
-자바는 단일 상속
+자바는 단일 상속 (부모 클래스를 하나 이상 가져올 수 없다.)
 
-부모 생성자 
+부모 생성자
 super 클래스 (7장)
