@@ -4,3 +4,8 @@
 
 자식 클래스가 부모의 요소를 '선택'해서 물려받음
 자식 생성자에 public static public class ~~~ 'extends' <-이거
+
+자바는 단일 상속
+
+부모 생성자 
+super 클래스 (7장)

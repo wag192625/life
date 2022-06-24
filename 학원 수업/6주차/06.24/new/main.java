@@ -1,3 +1,5 @@
+import java.util.*;
+
 import extend.*;
 import inven.potion.*;
 
@@ -7,6 +9,7 @@ public class main {
 
         // SlimeGO();
         usePotion();
+
     }
 
     private static void usePotion() {
@@ -20,11 +23,12 @@ public class main {
         System.out.println("용사는 포션을 사용하여 HP "+effectHP+"를 회복하였습니다.");
         System.out.println("용사는 포션을 사용하여 HP "+effectHP+"를 회복하였습니다.");
     }
+    /*
     private static void SlimeGO() {
         RedSlime redslime = new RedSlime(20, 30, "red", "예쁜이");
 
         redslime.initSlime();
         redslime.getColor();
-
     }
+     */
 }
