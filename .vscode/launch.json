@@ -6,6 +6,32 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch main",
+            "request": "launch",
+            "mainClass": "main"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestprojectApplication",
+            "request": "launch",
+            "mainClass": "com.google.testproject.TestprojectApplication"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestprojectApplication",
+            "request": "launch",
+            "mainClass": "com.google.testproject.TestprojectApplication",
+            "projectName": "testproject"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestprojectApplication",
+            "request": "launch",
+            "mainClass": "TestprojectApplication",
+            "projectName": "life_d5ae6b28"
+        },
+        {
+            "type": "java",
             "name": "Launch car",
             "request": "launch",
             "mainClass": "car",
