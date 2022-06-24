@@ -1,9 +1,9 @@
 import extend.*;
 import inven.potion.*;
 
-public class main() {
+public class main {
     
-    public static void name(String[] arg) {
+    public static void main(String[] arg) {
 
         // SlimeGO();
         usePotion();

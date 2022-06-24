@@ -5,12 +5,12 @@ public class RedPotion extends Potion{
         public int effect;
 
     //포션을 생성할 때 효과 수치를 받음
-        RedPotion(int hp, int effect) {
+        public RedPotion(int hp, int effect) {
             this.effectHP = hp;
             this.effect = effect ;
         }
 
-        public int usePotion(int invenUseNumber) {
+        public int useItem(int invenUseNumber) {
             int result = effectHP * effect;
             return result;
         }
