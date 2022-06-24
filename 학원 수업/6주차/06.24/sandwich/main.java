@@ -6,6 +6,7 @@ public class main{
     public static void main(String[] arg) {
 
         eatSand();
+        
     Calendar cal = Calendar.getInstance();
     }
     public static void day(){
@@ -13,6 +14,7 @@ public class main{
         switch (dayOfWeek) {
             case 1:
                 korDate = "일";
+                System.out.println("오늘은 주말입니다.");
                 break;
             case 2:
                 korDate = "월";
@@ -23,22 +25,25 @@ public class main{
             case 4:
                 korDate = "수";
                 break;
-            case 1:
+            case 5:
                 korDate = "목";
                 break;
-            case 1:
+            case 6:
                 korDate = "금";
                 break;
             case 1:
                 korDate = "토";
+                System.out.println("오늘은 주말입니다.");
                 break;
             default:
                 break;
             }
             System.out.println();
+            //주말일 경우 치킨으로 변경
+            
     private static void eatSand() {
         wich sandwich = new wich();
-        System.out.println("오늘은 "+ day +"이며, "+ sandwich +"를 먹는 날입니다~~");
+        System.out.println("오늘은 "+ day +"요일이며, "+ sandwich +"를 먹는 날입니다~~");
         }
     }
 }

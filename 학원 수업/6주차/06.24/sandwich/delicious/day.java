@@ -8,6 +8,5 @@ public class day {
     int month = cal.get(Calendar.MONTH);
     int date = cal.get(Calendar.DATE);
     int dayOfWeek = cal.get(Calendar.DAY_OF_WEEK);
-    
     }
  
