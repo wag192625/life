@@ -1,6 +1,7 @@
 package weapon.weaponChange;
 
 public class weaponLance extends weapon1 {
+
     public weaponLance() {
         this.name = "랜스";
         this.ATTRange = 2;

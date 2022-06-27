@@ -1,4 +1,4 @@
-package slimeland;
+package weapon.weaponChange;
 
 public class Warrior {
     public String name;
@@ -9,7 +9,6 @@ public class Warrior {
         this.name = input_name;
         this.hp = input_hp;
         this.mp = input_mp;
-        
     }
 
     public int att() {
@@ -25,10 +24,6 @@ public class Warrior {
         this.mp = this.mp - 20;
         return 50;
     }
-
-    // public void dmg(int input_dmg) {
-    //     this.hp = this.hp - input_dmg;
-    // }
 
     public void dmg(int dmg) {  // 공격
         this.hp = this.hp - dmg;
