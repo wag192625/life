@@ -1,4 +1,4 @@
-
+package weapon.weaponChange;
 
 public class RedSlime extends NomalSlime{
     
@@ -8,6 +8,7 @@ public class RedSlime extends NomalSlime{
         this.name = input_name;
         this.color = input_color;
     }
+    
     public void getColor() {
         System.out.println("이 슬라임의 색상은 " +this.color+" 입니다.");
         System.out.println("이 슬라임의 이름은 " +this.name+" 입니다.");

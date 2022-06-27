@@ -1,4 +1,4 @@
-
+package weapon.weaponChange;
 public class NomalSlime {
     
     public int hp;
