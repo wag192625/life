@@ -9,44 +9,15 @@ public class main{
         
     Calendar cal = Calendar.getInstance();
     }
-    public static void day(){
-        String korDate= "";
-        switch (dayOfWeek) {
-            case 1:
-                korDate = "일";
-                System.out.println("오늘은 주말입니다.");
-                break;
-            case 2:
-                korDate = "월";
-                break;
-            case 3:
-                korDate = "화";
-                break;
-            case 4:
-                korDate = "수";
-                break;
-            case 5:
-                korDate = "목";
-                break;
-            case 6:
-                korDate = "금";
-                break;
-            case 1:
-                korDate = "토";
-                System.out.println("오늘은 주말입니다.");
-                break;
-            default:
-                break;
-            }
-            System.out.println();
-            //주말일 경우 치킨으로 변경
+
             
     private static void eatSand() {
-        wich sandwich = new wich();
-        System.out.println("오늘은 "+ day +"요일이며, "+ sandwich +"를 먹는 날입니다~~");
-        }
+        sandwich sandwich = new sandwich();
+
+        System.out.println("오늘은 "+"요일이며, "+ sandwich +"를 먹는 날입니다~~");
     }
 }
+
 
 // //요리를 하려고 한다.
 // 일 주일동안 점심 식사 준비를 하려고 샌드위치를 만들려고 한다.

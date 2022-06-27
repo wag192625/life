@@ -1,8 +1,8 @@
-package weaponChange;
+package weapon.weaponChange;
 
-public class weaponLance extends weapon1 {
-    weaponLance() {
-        this.name = "랜스";
+public class weaponLong extends weapon1 {
+    public weaponLong() {
+        this.name = "롱소드";
         this.ATTRange = 2;
         this.ChangeTime = 3;
 
@@ -17,7 +17,7 @@ public class weaponLance extends weapon1 {
 
     @Override
     public void destrution() {
-        if(this.name == "랜스") {
+        if(this.name == "롱소드") {
             
         }
     }

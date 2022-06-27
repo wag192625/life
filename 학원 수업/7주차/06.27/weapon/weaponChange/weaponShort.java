@@ -1,4 +1,4 @@
-package weaponChange;
+package weapon.weaponChange;
 
 public class weaponShort extends weapon1 {
     weaponShort() {

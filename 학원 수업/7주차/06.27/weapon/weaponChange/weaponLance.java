@@ -1,14 +1,13 @@
-package weaponChange;
+package weapon.weaponChange;
 
-public class weaponLong extends weapon1 {
-    weaponLong() {
-        this.name = "롱소드";
+public class weaponLance extends weapon1 {
+    public weaponLance() {
+        this.name = "랜스";
         this.ATTRange = 2;
         this.ChangeTime = 3;
-
-
     }
-    @Override
+
+    @Override   //메소드의 재정의
     public void attAction() {
         System.out.println("무기"+this.name+"을 장착하였습니다.");
         System.out.println("무기의 공격 범위는 "+this.ATTRange+" 입니다.");
@@ -17,8 +16,7 @@ public class weaponLong extends weapon1 {
 
     @Override
     public void destrution() {
-        if(this.name == "롱소드") {
-            
-        }
+        super.destrutionbefore(super.defaultName);
+        attAction();
     }
 }

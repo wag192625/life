@@ -1,10 +1,19 @@
+package weapon;
 import exam_overriding.*;
 import exam_super.*;
+import weapon.weaponChange.*;
 
 public class main {
     public static void main(String[] arg) {
 
     }
+    public static void ChangeWeapon(){
+        weaponLance lance = new weaponLance();
+        weaponLong long_1 = new weaponLong();
+        lance.attAction();
+        lance.destrution();
+    }
+
 }
 // 용사는 슬라임을 잡기 위해 무기 교체 시스템을 개발하려고 합니다.
 // 상속과 오버라이딩을 사용하여
@@ -14,7 +23,15 @@ public class main {
 
 //어려운 문제
 // 용사와 슬라임 3마리가 자동으로 싸우며 알아서 무기를 교체하고 효율적으로
+//
 // 자동전투를 할 수 있는 시스템을 개발하시오
+//
+// attAction = 공격  attrange 범위 changetime 횟수
+//
+// 알아서 무기를 교체 = 턴당/ 몬스터 체력당/ 마릿수당
+// 턴 카운트는 static
+
+
 // 카카오급
 // 다 만드신 분들은 포션의 개수와 공격력 랜덤 출력하는 게임 시스템을 추가하여
 // 용사 1턴 마다 효율적인 공격방식을 재구성하는 알고리즘을 만드시오.
