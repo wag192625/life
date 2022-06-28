@@ -7,13 +7,11 @@ public class star {
         int y= 7;
         // int z= 3;
         for(int i=0; i<y; i++){
-            for(int j=0; j<i+1; j++){
-                System.out.print(" ");
-            }
+            
+            
             System.out.println();
         }
     }
-    
     
     
     
