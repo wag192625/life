@@ -16,7 +16,6 @@ public class main {
     // lance.attAction();
     // lance.destrution();
     // }
-    // 1
 
     public static void CreateSlime() {
 

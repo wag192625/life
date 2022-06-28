@@ -1,36 +1,15 @@
 import java.util.Scanner;
 public class main {
     public static void main(String[] args) {
-        int[] arr1 = new int[3];
-        for(int i=0; i<3; i++){
-            System.out.println("arr1[" + i +"] : " + arr1[i]);
+        int[] scores = {95, 71, 84,93,87};
+        
+        int sum = 0;
+        for (int score : scores) {
+            sum = sum+ score;
         }
-        arr1[0] = 10;
-        arr1[1] = 20;
-        arr1[2] = 30;
-        for(int i=0; i<3; i++) {
-            System.out.println("arr1[" + i + "] : " + arr1[i]);
-        }
+        System.out.println("점수 총합 = " + sum);
 
-        double[] arr2 = new double[3];
-        for(int i = 0; i<3; i++) {
-            System.out.println("arr2[" + i + "] : " + arr2[i]);
-        }
-        arr2[0] = 0.1;
-        arr2[1] = 0.2;
-        arr2[2] = 0.3;
-        for(int i = 0; i<3; i++) {
-            System.out.println("arr2[" + i + "] : " + arr2[i]);
-        }
-        String[] arr3 = new String[3];
-        for(int i = 0; i<3; i++) {
-            System.out.println("arr3[" + i + "] : " + arr3[i]);
-        }
-        arr3[0] = "1월";
-        arr3[1] = "2월";
-        arr3[2] = "3월";
-        for(int i = 0; i<3; i++) {
-            System.out.println("arr3[" + i + "] : " + arr3[i]);
-        }
+        double avg = (double) sum / scores.length;
+        System.out.println("점수 평균 = " + avg);
     }
 }
