@@ -9,7 +9,7 @@ public class main {
         String input_name = "";
         String enter = "\n" ;
         Scanner scan = new Scanner(System.in);
-
+        //입력값 인식
         
         System.out.println("게임 스타트!!");
 
@@ -24,12 +24,14 @@ public class main {
         System.out.println("----------------------");
         
         int number = scan.nextInt();
+        //입력값 인식
 
         String input_weapon_1 = "막대기";
         String input_weapon_2 = "야구방망이";
         String input_weapon_3 = "백과사전";
         int input_offpower = 5;
 
+        //무기 설정
         Weapon weapon_1 = new Weapon(input_weapon_1, input_offpower);
         Weapon weapon_2 = new Weapon(input_weapon_2, input_offpower);
         Weapon weapon_3 = new Weapon(input_weapon_3, input_offpower);
@@ -52,8 +54,10 @@ public class main {
         scan.nextLine();
         
         Warrior warrior = new Warrior(input_name, 100, 100, input_offpower);
+        //용사 정보 설정
 
         warrior.info();
+        //정보 출력
 
         System.out.println("----------------------");
         System.out.println("전투를 시작하시겠습니까?");
@@ -61,7 +65,8 @@ public class main {
         System.out.println("----------------------");
 
         int number_battle = scan.nextInt();
-        if(number_battle == 1) {
+
+        if(number_battle == 1) {    //
             System.out.println("----------------------");
             System.out.println("몬스터가 나타났다!");
             System.out.println("----------------------");
@@ -70,11 +75,14 @@ public class main {
             snail snail = new snail();
             slime slime = new slime();
             Dragon dragon = new Dragon();
+
             int n = 0;
             for(int i=0; i<10; i++) {
                 n = ran.nextInt(3);
+                // 1~3 중 랜덤 출력해서 나오는 값의 몬스터 출력
                 if(n == 0) {
                     snail.info();
+                    //몬스터 정보 출력
                     System.out.println("몬스터를 해치웠다!");
                 }
                 else if(n == 1) {
@@ -85,11 +93,9 @@ public class main {
                     dragon.info();
                     System.out.println("몬스터를 해치웠다!");
                 }
+                // 전투 장면 x
                 
-
-
             }
-            
             System.out.println("게임이 종료되었습니다.");
             
         }
