@@ -51,7 +51,7 @@ public class main {
         Child_B.goToWork();
         Child_B.goToPCRoom();
         Child_B.buyBranch(50000);
-        System.out.println("-------Sister-------");
+        System.out.println("-------child-------");
         
         Child_C.goToWork();
         Child_C.buyBranch(50000);
