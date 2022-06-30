@@ -21,8 +21,8 @@ public class star {
             }
         }
         for(int i=30; i<40; i++){
-            for(int j=20; j>i; j--){
-                answer[j][i] =" ";
+            for(int j=10; j>i; j--){
+                answer[j][i] ="3";
             }
         }
         for(int i=0; i<y; i++){
