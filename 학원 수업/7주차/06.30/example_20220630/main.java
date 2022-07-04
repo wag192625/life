@@ -32,7 +32,7 @@ public class main{
         //선언하는 곳에 가서 타입을 찾고 메모리를 불러온다.
 
         Dog dog = new Dog();
-        //Dog 타입에
+        //Dog 타입에 
         Cat cat = new Cat();
 
         // System.out.println();
