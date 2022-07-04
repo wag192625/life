@@ -9,15 +9,8 @@ public class RemoteControlExample {
 		RemoteControl.changeBattery();
 		Audio audio_A = new Audio();
 		Scanner sc = new Scanner(System.in);
-		//
-		// Near near = new Near();
-		//
-		
 		
 		audio_A.turnOn();
-		
-		// ch_num = sc.nextInt();
-		// ch_num = sc.nextInt();
 
 		// ***************************
 		String input= "";		// ⬇
@@ -28,13 +21,11 @@ public class RemoteControlExample {
 		audio_A.setVolume(30);
 		audio_A.setMute(true);
 		audio_A.turnOff();
-		
         
 		// int ch_num;
 		// int min = Integer.MAX_VALUE;
 		// int[] arr = {10,20,25,120};
 		// int answer  = 0;
-		
 		// for(int i=0; i<arr.length; i++){
 		// 	int abs= Math.abs(arr[i] - ch_num);
 		// 	if(abs < min) {
@@ -43,11 +34,10 @@ public class RemoteControlExample {
 		// 	}
 		// }
 		// System.out.println(answer);
-		
 
 		System.out.println("start");	
 		tv.setMute(true);
 
-		RemoteControl rc = tv;
-		Searchable searchable = tv;
+		// RemoteControl rc = tv;
+		// Searchable searchable = tv;
 	}}
