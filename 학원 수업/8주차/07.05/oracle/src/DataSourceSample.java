@@ -38,13 +38,13 @@ public class DataSourceSample {
     // The recommended format of a connection URL is the long format with the
     // connection descriptor.
     final static String DB_URL= "jdbc:oracle:thin:@db20220705125510_high?TNS_ADMIN=C:\\\\Users\\\\admin\\\\Documents\\\\Wallet_DB20220705125510";
-    // For ATP and ADW - use the TNS Alias name along with the TNS_ADMIN when using 18.3 JDBC driver
-    // final static String DB_URL="jdbc:oracle:thin:@wallet_dbname?TNS_ADMIN=/Users/test/wallet_dbname";
-    // In case of windows, use the following URL
-    // final static String DB_URL="jdbc:oracle:thin:@wallet_dbname?TNS_ADMIN=C:/Users/test/wallet_dbname";
+//     For ATP and ADW - use the TNS Alias name along with the TNS_ADMIN when using 18.3 JDBC driver
+//     final static String DB_URL="jdbc:oracle:thin:@wallet_dbname?TNS_ADMIN=/Users/test/wallet_dbname";
+//     In case of windows, use the following URL
+//     final static String DB_URL="jdbc:oracle:thin:@wallet_dbname?TNS_ADMIN=C:/Users/test/wallet_dbname";
     final static String DB_USER = "admin";
     final static String DB_PASSWORD = "System12341234@";
-
+    //상수
     /*
      * The method gets a database connection using
      * oracle.jdbc.pool.OracleDataSource. It also sets some connection
