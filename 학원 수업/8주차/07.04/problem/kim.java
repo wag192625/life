@@ -3,7 +3,7 @@ package problem;
 import java.util.concurrent.TimeUnit;
 
 public class Kim implements time {
-    int[] kim = { 39, 12, 63, 44 };
+    int[] kim = { 42, 152, 33, 74 };
     public void loding() {
         try {
             for (int i = 0; i <= 200; i++) {
