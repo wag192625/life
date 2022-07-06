@@ -10,13 +10,16 @@ public class eat {
     public static void eatting(){
         Scanner sc = new Scanner(System.in);
 
-        mango mango = new mango();
+        Mango mango = new Mango();
+        Grape grape = new Grape();
+        Strawberry straw = new Strawberry();
+
 
         System.out.println("------");
-        String input = "1";
-        input=sc.nextLine();
+        int input = 1;
+        input=sc.nextInt();
 
-        if(input == ){
+        if(input == 1){
             System.out.println("망고");
         } else {
             System.out.println("아무것도 고르지 않았습니다.");
@@ -33,6 +36,7 @@ public class eat {
 //          System.out.println("딸기 젤리");
 //      } else if() ~~~~~
 
+//랜덤 함수를 이용하여 한명씩 사탕을 집을 수 있을것
 
 //  여러사람이 젤리를 먹는 행위 :
 //  여러 사람이 한가지 메소드 사용, 생성자 스태틱...

@@ -1,6 +1,6 @@
 package eat;
 
-public class mango implements jelly {
+public class Mango implements jelly {
 
     @Override
     public void jelly() {

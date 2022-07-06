@@ -1,9 +1,8 @@
 package eat;
 
-public class mango implements jelly {
-
+public class Grape implements jelly {
     @Override
     public void jelly() {
-        System.out.println("망고 젤리를 먹습니다.");
+        System.out.println("포도 젤리를 먹습니다.");
     }
 }
