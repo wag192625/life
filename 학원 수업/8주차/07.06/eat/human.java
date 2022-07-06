@@ -1,2 +1,7 @@
-package eat;public class human {
+package eat;
+
+public class human {
+    public void kim() {
+
+    }
 }

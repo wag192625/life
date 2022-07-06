@@ -1,2 +1,4 @@
-package eat;public class mango {
+package eat;
+
+public class mango {
 }

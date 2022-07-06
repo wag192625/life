@@ -1,4 +1,5 @@
-package sec05.exam02_field_array;
+package exam01_field_polymorphism;
+
 
 public class Car {
 	Tire[] tires = {
