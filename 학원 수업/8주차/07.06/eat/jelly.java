@@ -1,6 +1,6 @@
 package eat;
 
 public interface jelly {
-    String jelly();
+    void jelly();
 //  필드
 }
