@@ -13,9 +13,10 @@ public class eat {
         mango mango = new mango();
 
         System.out.println("------");
-        String input = "";
+        String input = "1";
         input=sc.nextLine();
-        if(input == "mango"){
+
+        if(input == ){
             System.out.println("망고");
         } else {
             System.out.println("아무것도 고르지 않았습니다.");
