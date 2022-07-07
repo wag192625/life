@@ -9,7 +9,7 @@ public class Kim implements time {
             for (int i = 0; i <= 200; i++) {
                 System.out.println("Sleep " + i);
                 if (i % 3 == 0) {
-                    System.out.println("3초 김" + kim);
+                    System.out.println("3초 김" + kim[i]);
                 }
                 TimeUnit.SECONDS.sleep(1);
             }
