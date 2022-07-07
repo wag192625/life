@@ -8,7 +8,7 @@ public class Park implements time{
         try {
             for (int i = 0; i <= 200; i++) {
                 System.out.println("Sleep " + i);
-                    if(i%5==0) {
+                if(i%5==0) {
                     System.out.println("5초 박" + park);
                 }
                 TimeUnit.SECONDS.sleep(1);
