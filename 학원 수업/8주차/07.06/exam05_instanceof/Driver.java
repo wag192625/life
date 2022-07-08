@@ -9,6 +9,7 @@ public class Driver implements Payment {
 //	}
 	public void drive(Vehicle vehicle) {
 		if(vehicle instanceof Bus) {	//인스턴스 오브가 작동되는 이유 = 버스는 바이클에 상속이 되어있어서
+			// instanceof 는 타입을 비교하는거임
 			Bus bus = (Bus) vehicle;
 			//형변환
 			System.out.println("요금은 "+ money +"입니다.");
