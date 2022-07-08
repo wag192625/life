@@ -1,16 +1,19 @@
-public class main {
+// // package exam05_instanceof;
+// public class main {
 
-    public static void main(String[] arg) {
-        
-    }
-    private static void example_driver(){
-        Driver driver = new Driver();
+//     public static void main(String[] arg) {
+//         example_driver();
+//     }
+//     private static void example_driver(){
+//         Driver driver = new Driver();
 
-        Bus bus = new Bus();
-        Taxi taxi = new taxi();
+//         Bus bus = new Bus();
+//         Taxi taxi = new taxi();
 
-        driver.driver(bus);
-        driver.driver(taxi);
+//         driver.driver(bus);
+//         driver.driver(taxi);
+//     }
+// }
 
         // 버스와 택시에 인터페이스를 추가 (인터페이스의 다양성을 추가해서 기능 강제성 구현)
         // 1. 요금 납부 인터페이스, 하이패스 인터페이스를 만드시고 구현하세요.
@@ -26,5 +29,3 @@ public class main {
         // 출력하세요.
 
         // 추상 클래스와 인터페이스를 왜?! 쓰는지와 어떤 경우에 쓰는지 고민
-    }
-}
