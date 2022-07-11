@@ -1,33 +1,42 @@
 // package exam05_instanceof;
-import drivers.*;
+
+
+import Going.*;
 
 public class DriverExample {
 	public static void main(String[] args) {
-		Driver driver = new Driver();
-		// 드라이버 호출
-		Bus bus = new Bus();
-		// 버스 호출
-		System.out.printf("");
-		Taxi taxi = new Taxi();
-		// 택시호출
-
-
-		driver.drive(bus);
-		driver.drive(taxi);
+//		Driver driver = new Driver();
+//		// 드라이버 호출
+//		Bus bus = new Bus();
+//		// 버스 호출
+//		System.out.printf("");
+//		Taxi taxi = new Taxi();
+//		// 택시호출
+//
+//
+//		driver.drive(bus);
+//		driver.drive(taxi);
 		//형변환함
 
 //		ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+		System.out.println("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ");
+		Master master = new Master();
+		Pro pro = new Pro();
+		Beginner beginner = new Beginner();
+		Road road = new Road();
 		System.out.println("이제부터 천안에서 고속도로를 이용하여 서울로 갑니다.");
-		System.out.println("일반 도로로 달립니다. 제한속도 60km 입니다.");
-
-		System.out.println("고속 도로로 달립니다. 제한속도 120km 입니다.");
-		//형변환
 
 		System.out.println("일반 도로로 달립니다. 제한속도 60km 입니다.");
-		//형변환 해제
+		road.road(pro);
+
+		System.out.println("고속 도로로 달립니다. 제한속도 100km 입니다.");
+		road.road(master);
+
+		System.out.println("일반 도로로 달립니다. 제한속도 60km 입니다.");
+		road.road(beginner);
 
 		System.out.println("서울에 도착하였습니다.");
-
+	//고속도로 구현해야함
 
 	}
 }
