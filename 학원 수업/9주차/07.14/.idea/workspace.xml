@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a5afe64e-c481-45c1-8c8c-eb762054e10c" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../이것이 자바다/Cal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../이것이 자바다/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../이것이 자바다/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07.12/out/production/07.12/highwayChange/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07.12/out/production/07.12/highwayChange/check/CheckPrint$city.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07.12/out/production/07.12/highwayChange/check/CheckPrint$highway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07.12/out/production/07.12/highwayChange/check/CheckPrint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07.12/out/production/07.12/highwayChange/driver/Beginner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07.12/out/production/07.12/highwayChange/driver/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07.12/out/production/07.12/highwayChange/driver/Expert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07.12/out/production/07.12/highwayChange/main.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2BubldhBNkooHymTDvib0F2250q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/admin/Documents/booooo/life/이것이 자바다"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="a5afe64e-c481-45c1-8c8c-eb762054e10c" name="변경" comment="" />
+      <created>1657759069609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657759069609</updated>
+      <workItem from="1657759071031" duration="78000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
