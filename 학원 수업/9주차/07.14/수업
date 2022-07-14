@@ -1,0 +1,20 @@
+1교시
+jsp란?
+자바 서버 페이지
+https://javacpro.tistory.com/43
+참고
+
+2교시 싱글톤
+빌드업, 싱글톤 패턴등의 패턴은 자바를 다 알고 패턴을 사용
+패턴은 자바의 종착지
+
+public class Beginner {
+    private static Beginner beginner_1 = new beginner();
+    private Beginner(){};
+    public static Beginner
+}
+
+4교시 중첩 클래스와 인터페이스
+    1절~2절
+6교시
+    3절
