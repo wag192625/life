@@ -1,13 +1,20 @@
 package 멘토수업;
 
-public class MemberService{
+public class MemberService extends Member{
     boolean login(String id, String password){
-        this.id = id;
-        this.password = password;
+        super.id = id;
+        super.password = password;
 
+        if(id.equals("hong")  && password.equals("12345")) {
+            //boolean type 비교시 .equals
+            return true;
+        }else{
+            return false;
+        }
     }
     void logout(String id){
-        this.id = id;
+        super.id = id;
+        System.out.println("로그아웃");
     }
     
 }
