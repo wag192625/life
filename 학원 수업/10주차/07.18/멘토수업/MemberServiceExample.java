@@ -1,5 +1,3 @@
-package 멘토수업;
-
 public class MemberServiceExample {
     public static void main(String[] arg) {
         MemberService memberService = new MemberService();

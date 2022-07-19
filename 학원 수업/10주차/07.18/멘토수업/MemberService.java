@@ -1,5 +1,3 @@
-package 멘토수업;
-
 public class MemberService extends Member{
     boolean login(String id, String password){
         super.id = id;
