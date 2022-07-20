@@ -8,6 +8,8 @@ public class MemberServiceExample {
         } else {
             System.out.println("id 또는 password가 올바르지 않습니다.");
         }
+        Printer.println(1);
     }
+
     
 }
