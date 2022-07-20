@@ -12,9 +12,13 @@ public class Portfolio {
 //            input = sc.nextLine();
 //            array.add(input);
         System.out.println("프론트엔드는 누구입니까?");
+
+        Part part = new Part();
+        Part.Frontend frontend = part.new Frontend();
+        //중첩 클래스 이용 시 먼저 상위 클래스 선언 후 하위 클래스에 상위 클래스 변수명 입력 후 입력
         String input ="";
         input =sc.nextLine();
-        front.add(input);
+        frontend.(input);
 
 
 

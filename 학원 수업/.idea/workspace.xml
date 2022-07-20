@@ -4,30 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f0c96d-51fd-4f96-8e2c-6215381f6229" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/10주차/07.19/example_20220719_exception/sec04_multi_catch/CatchByExceptionKindExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10주차/07.19/example_20220719_exception/sec04_multi_catch/CatchOrderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10주차/07.19/example_20220719_exception/sec04_multi_catch/MultiCatchExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10주차/07.19/example_20220719_exception/sec05_try_with_resources/FileInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10주차/07.19/example_20220719_exception/sec05_try_with_resources/TryWithResourceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10주차/07.19/example_20220719_exception/sec05_try_with_resources/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10주차/07.19/example_20220719_exception/sec06_throws/ThrowsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10주차/07.19/example_20220719_exception/sec07_user_define_exception/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10주차/07.19/example_20220719_exception/sec07_user_define_exception/AccountExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10주차/07.19/example_20220719_exception/sec07_user_define_exception/BalanceInsufficientException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10주차/07.19/수업" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10주차/문제/Fild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10주차/문제/Part.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10주차/문제/Portfolio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10주차/문제/문제 설명" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/life.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/life.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/학원 수업.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/학원 수업.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10주차/07.18/멘토수업/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/10주차/07.18/멘토수업/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10주차/07.18/멘토수업/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/10주차/07.18/멘토수업/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10주차/07.18/멘토수업/MemberServiceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/10주차/07.18/멘토수업/MemberServiceExample.java" afterDir="false" />
+    <list default="true" id="42f0c96d-51fd-4f96-8e2c-6215381f6229" name="변경" comment="123">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10주차/07.19/example_20220719_exception/sec04_multi_catch/CatchByExceptionKindExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/10주차/07.19/example_20220719_exception/sec04_multi_catch/CatchByExceptionKindExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10주차/문제/Part.java" beforeDir="false" afterPath="$PROJECT_DIR$/10주차/문제/Part.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10주차/문제/Portfolio.java" beforeDir="false" afterPath="$PROJECT_DIR$/10주차/문제/Portfolio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,8 +105,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658207098638</updated>
-      <workItem from="1658207099784" duration="8534000" />
+      <workItem from="1658207099784" duration="11828000" />
     </task>
+    <task id="LOCAL-00001" summary="123">
+      <created>1658217577933</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658217577933</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,5 +130,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="123" />
+    <option name="LAST_COMMIT_MESSAGE" value="123" />
   </component>
 </project>

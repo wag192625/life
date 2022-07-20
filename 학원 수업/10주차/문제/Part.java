@@ -5,6 +5,6 @@ import java.util.List;
 
 public class Part implements Fild{
     class Frontend{
-        Arraylist<String> Front = new ArrayList<>();
+        String[] front;
     }
 }
