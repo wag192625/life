@@ -1,4 +1,4 @@
-package question;
+//package question;
 
 public class Student {
     //필드
@@ -50,7 +50,8 @@ public class Student {
             //id = member의 필드값
             //id = String이기 때문에 참조타입이므로 equals를 통해 비교
             //인스턴스의 id라는 필드값과 매개변수 onj(member)의 id를 비교
-            if(jo ==student_1.getJo() && name == student_1.getName()){
+            if(jo == student_1.getJo() && name == student_1.getName()){
+                System.out.println("같습니다.");
                 //필드명,메소드 = 학생_1의 Jo를 확인
             }
         }

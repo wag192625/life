@@ -1,4 +1,4 @@
-package sec03.exam01_equals;
+package exam01_equals;
 
 public class Member {
 	//필드

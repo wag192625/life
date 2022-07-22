@@ -1,4 +1,4 @@
-package sec03.exam01_equals;
+package exam01_equals;
 
 public class MemberExample {
 	//main 클래스는 프로그램이 시작할 때 처음 동작하는 메서드
