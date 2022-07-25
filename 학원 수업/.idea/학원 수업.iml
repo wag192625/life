@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+  <component name="NewModuleRootManager">
+    <output url="file:///production/학원 수업" />
+    <output-test url="file:///test/학원 수업" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/8주차/07.04/problem" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/8주차/07.06/exam01_field_polymorphism" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/8주차/07.06/exam05_instanceof" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10주차/07.20" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/10주차/07.18" />
+      <excludeFolder url="file://$MODULE_DIR$/10주차/07.19" />
+      <excludeFolder url="file://$MODULE_DIR$/5주차_자바" />
+      <excludeFolder url="file://$MODULE_DIR$/6주차" />
+      <excludeFolder url="file://$MODULE_DIR$/8주차" />
+      <excludeFolder url="file://$MODULE_DIR$/7주차" />
+      <excludeFolder url="file://$MODULE_DIR$/9주차" />
+      <excludeFolder url="file://$MODULE_DIR$/10주차/07.19/문제" />
+      <excludeFolder url="file://$MODULE_DIR$/10주차/07.19/example_20220719_exception" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
 </module>

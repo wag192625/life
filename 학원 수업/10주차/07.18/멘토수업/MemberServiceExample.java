@@ -1,5 +1,3 @@
-package 멘토수업;
-
 public class MemberServiceExample {
     public static void main(String[] arg) {
         MemberService memberService = new MemberService();
@@ -10,6 +8,8 @@ public class MemberServiceExample {
         } else {
             System.out.println("id 또는 password가 올바르지 않습니다.");
         }
+        Printer.println(1);
     }
+
     
 }
