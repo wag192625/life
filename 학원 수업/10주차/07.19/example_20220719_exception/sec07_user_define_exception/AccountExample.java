@@ -1,4 +1,4 @@
-//package sec07_user_define_exception;
+package sec07_user_define_exception;
 
 public class AccountExample {
 	public static void main(String[] args) {

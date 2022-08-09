@@ -1,4 +1,4 @@
-//package sec07_user_define_exception;
+package sec07_user_define_exception;
 
 public class Account {
 	private long balance;
