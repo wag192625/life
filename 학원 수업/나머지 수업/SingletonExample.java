@@ -1,22 +1,42 @@
+
 import java.util.*;
 
-public class Solution {
+import javax.xml.transform.Source;
+
+public class SingletonExample {
+    
+    
     public static void main(String[] arg){
-        for( int m=2; m<=9; m++){
-            System.out.println("****" + m + "단 ***");
-            for(int n=1; n<=9; n++){
-                System.out.println(m+"x"+n+"="+(m*n));
-            }
-        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // for( int m=2; m<=9; m++){
+        //     System.out.println("****" + m + "단 ***");
+        //     for(int n=1; n<=9; n++){
+        //         System.out.println(m+"x"+n+"="+(m*n));
+        //     }
+        // }
         // int max=0;
         // int[] array ={1, 5, 3, 8 ,2};
         // for(int i=0; i<array.length; i++){
-        //     if(){
+        //     if(max<array[i]){
+        //         max = array[i];
         //     }
         // }
         // System.out.println("max: " +max);
-    }
-}
+    
     // public int[] solution(int []arr) {
     // int[] answer = {};
     // // int[] arr = {1,1,3,3,0,1,1};
