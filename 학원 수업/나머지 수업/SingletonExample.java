@@ -4,23 +4,9 @@ import java.util.*;
 import javax.xml.transform.Source;
 
 public class SingletonExample {
-    
-    
     public static void main(String[] arg){
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
         // for( int m=2; m<=9; m++){
         //     System.out.println("****" + m + "단 ***");
