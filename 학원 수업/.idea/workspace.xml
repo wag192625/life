@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42f0c96d-51fd-4f96-8e2c-6215381f6229" name="변경" comment="123">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10주차/07.20/question/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Team6(6.23)/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Team6(6.23)/slimeLand/Dragon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Team6(6.23)/slimeLand/Warrior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Team6(6.23)/slimeLand/Weapon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Team6(6.23)/slimeLand/slime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Team6(6.23)/slimeLand/snail.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/학원 수업.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/학원 수업.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10주차/07.20/question/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/10주차/07.20/question/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10주차/07.20/study/exam01_equals/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/10주차/07.20/study/exam01_equals/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10주차/07.20/study/exam01_equals/MemberExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/10주차/07.20/study/exam01_equals/MemberExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10주차/문제/Fild.java" beforeDir="false" afterPath="$PROJECT_DIR$/10주차/07.19/문제/Fild.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10주차/문제/Part.java" beforeDir="false" afterPath="$PROJECT_DIR$/10주차/07.19/문제/Part.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10주차/문제/Portfolio.java" beforeDir="false" afterPath="$PROJECT_DIR$/10주차/07.19/문제/Portfolio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10주차/문제/문제 설명" beforeDir="false" afterPath="$PROJECT_DIR$/10주차/07.19/문제/문제 설명" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +38,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/wag19/Documents/life/학원 수업/10주차/07.20",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wag19/Documents/life/학원 수업/10주차/07.20&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\wag19\Documents\life\학원 수업\10주차\07.19" />
@@ -158,6 +153,8 @@
       <workItem from="1658299196715" duration="1131000" />
       <workItem from="1658300347654" duration="526000" />
       <workItem from="1658301207147" duration="130000" />
+      <workItem from="1713531839829" duration="147000" />
+      <workItem from="1713532002590" duration="254000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1658217577933</created>
